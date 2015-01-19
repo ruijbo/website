@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 # General settings
 AUTHOR = 'Florian M. Wagner'
 SITENAME = 'Florian M. Wagner'
-SITEURL = '/'
+SITEURL = ''
 
 # Path settings
 DELETE_OUTPUT_DIRECTORY = True

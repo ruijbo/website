@@ -1,5 +1,5 @@
 Source code for personal website http://www.fwagner.info 
-#########################################################
+=========================================================
 
 Built with [Pure Theme](http://purepelican.com/) for
 [Pelican](http://blog.getpelican.com/).
