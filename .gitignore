@@ -1,0 +1,5 @@
+*.bak
+*.pyc
+cache/*
+output/*
+content/pages/publications.html
