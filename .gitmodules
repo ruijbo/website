@@ -1,0 +1,3 @@
+[submodule "themes/pure-single"]
+	path = themes/pure-single
+	url = https://github.com/florian-wagner/pure-single
