@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
 # General settings
@@ -10,18 +8,18 @@ SITEURL = ''
 # Path settings
 DELETE_OUTPUT_DIRECTORY = True
 PATH = 'content'
-STATIC_PATHS = ['img', 'html']
+STATIC_PATHS = ['static']
 TIMEZONE = 'Europe/Paris'
-INDEX_SAVE_AS = 'blog.html'
 PAGE_URL = '{slug}.html'
 PAGE_SAVE_AS = PAGE_URL
+DIRECT_TEMPLATES = ()
 
 DEFAULT_LANG = 'en'
 
 MENUITEMS = (('About me', 'index.html'),
          ('Curriculum Vitae', 'cv.html'),
          ('Publications', 'publications.html'),
-         #('Contact', 'contact.html'),
+         ('Contact', 'contact.html'),
          )
 
 # Social widget
@@ -37,6 +35,6 @@ SOCIAL = (
 DEFAULT_PAGINATION = False
 
 THEME = 'themes/pure-single'
-PROFILE_IMG_URL = '/img/fwagner.jpg'
-COVER_IMG_URL = '/img/bg.jpg'
+PROFILE_IMG_URL = '/static/fwagner.jpg'
+COVER_IMG_URL = '/static/bg.jpg'
 TAGLINE = "Geophysicist / Data Scientist"

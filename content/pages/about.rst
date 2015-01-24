@@ -9,7 +9,7 @@ in Switzerland. At the GFZ, I work in the geoelectrical monitoring group at the
 Management`_ at RWTH Aachen University and participated in the `IDEA League
 Joint Master program in Applied Geophysics`_.
 
-My current research interests include:
+My research interests include:
 
 * Geophysical monitoring of subsurface fluid migration
 * Tomographic experimental design

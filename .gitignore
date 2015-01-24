@@ -1,5 +1,5 @@
 *.bak
 *.pyc
-cache/*
+*cache*
 output/*
-content/pages/publications.html
+content/pages/publications.rst

@@ -8,12 +8,16 @@ Education
    :widths: 5 20
 
    * - *2006 - 2009*
-     - Georesources Management (**B.Sc.**) at RWTH Aachen University
+     - Georesources Management (**B.Sc.**) at `RWTH Aachen`_ University
    * - *2009 - 2011*
-     - Applied Geophysics (**M.Sc.**) at the technical universities TU Delft, ETH
-       Zurich and RWTH Aachen
+     - Applied Geophysics (**M.Sc.**) at the European technical universities
+       `TU Delft`_, `ETH Zurich`_ and `RWTH Aachen`_
    * - *since Nov. 2011*
      - PhD student at GFZ Potsdam / ETH Zurich
+
+.. _`RWTH Aachen`: http://www.rwth-aachen.de/cms/~a/root/?lidx=1
+.. _`TU Delft`: http://www.tudelft.nl/en/faculty/3me-mse/page/6
+.. _`ETH Zurich`: https://www.ethz.ch/en.html
 
 Professional experience
 -----------------------
@@ -26,10 +30,13 @@ Professional experience
     (GPR), Electromagnetics (EM31 and EM38), Transient Electromagnetics (TEM) and
     Magnetics.
 
-    **Internship at DMT GmbH & Co. KG, Essen, Germany (July 2010)**
-
-    Large-scale 3D seismic survey in Jointville, France. Gained hands-on
-    experiences in:
+    **Internship in large-scale 3D seismic surveying (July 2010)**
+    
+    Four week summer internship at `DMT GmbH & Co. KG
+    <http://www.dmt.de/en/home.html>`_, Essen, Germany, during a large-scale 3D
+    seismic survey in Jointville, France.
+    
+    Gained hands-on experiences in:
 
     * Large-scale data acquisition
     * Reflection & Refraction Seismics
@@ -41,8 +48,9 @@ Professional experience
 
     I worked on acoustic and electrical analysis of reservoir sandstones in the
     Geomechanical Reservoir Experimental Facility (`GeoREF
-    <http://www.geo-ref.ca>`_) of the University of Alberta in Edmonton, Canada,
-    under supervision of Dr. Chalaturnyk and his team.
+    <http://www.geo-ref.ca>`_) of the `University of Alberta
+    <http://www.ualberta.ca>`_ in Edmonton, Canada, under supervision of Dr.
+    Chalaturnyk and his team.
 
 Scholarships & Awards
 ---------------------
@@ -56,13 +64,13 @@ Scholarships & Awards
      - Private scholarship from RWE Dea AG
    * - *Sep. 2012*
      - Best oral presentation award on the 2nd Science Forum of the
-       Helmholtz-Alberta-Initiative (HAI), Potsdam
+       Helmholtz-Alberta-Initiative (`HAI <http://www.helmholtzalberta.ca>`_), Potsdam
    * - *Sep. 2013*
      - Best oral presentation award on the 3rd Science Forum of the
-       Helmholtz-Alberta-Initiative (HAI), Edmonton, Canada
+       Helmholtz-Alberta-Initiative (`HAI <http://www.helmholtzalberta.ca>`_), Edmonton, Canada
    * - *Sep. 2014*
      - Best oral presentation award on the 4th Science Forum of the
-       Helmholtz-Alberta-Initiative (HAI), Edmonton, Canada
+       Helmholtz-Alberta-Initiative (`HAI <http://www.helmholtzalberta.ca>`_), Edmonton, Canada
 
 Teaching experience
 -------------------
@@ -82,9 +90,13 @@ Teaching experience
 Technical skills
 ----------------
 
-* Coding: Scientific Python, MATLAB
-* Inversion: BERT / GIMLi (`<www.resistivity.net>`_)
-* Numerical Transport Modeling: Experiences with MODFLOW, SHEMAT and TOUGH2
-* Seismic Processing: ProMAX 
-* Office: LaTeX, Vim, MS Office
-* Website development: HTML, CSS, Photoshop, Illustrator
+* *Programming*: Linux, Scientific Python, MATLAB
+* *Inversion*: BERT / GIMLi (`<www.resistivity.net>`_)
+* *Transport Modeling*: Experiences with MODFLOW, SHEMAT and TOUGH2
+* *Seismic Processing*: ProMAX
+* *Office / Writing*: LaTeX, Vim, MS Office
+* *Website development*: HTML, CSS, Photoshop, Illustrator
+
+.. class:: sidenote
+
+    A PDF version of this CV can be downloaded `here </static/cv_fwagner.pdf>`_
