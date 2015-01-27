@@ -1,4 +1,5 @@
 from __future__ import unicode_literals
+import datetime
 
 # General settings
 AUTHOR = 'Florian M. Wagner'
@@ -34,6 +35,10 @@ SOCIAL = (
 
 DEFAULT_PAGINATION = False
 
+# For modification date in footer
+TODAY = datetime.date.today().isoformat()
+
+# Theme settings
 THEME = 'themes/pure-single'
 PROFILE_IMG_URL = '/static/fwagner.jpg'
 COVER_IMG_URL = '/static/bg.jpg'
