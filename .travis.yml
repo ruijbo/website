@@ -1,0 +1,11 @@
+language: python
+python: 3.4
+install:
+  - pip install pelican bibtexparser
+script:
+  - make html
+env:
+  secure: "gCj12oUu2OpY/8l6OCF8VAvRkZDXhZpX3OdNhLehfu6rCSMrVTkA+b38d3H2ap8+dy/x7bZssljGSFkIOMHsEMnPmuiPQjGGYGD9jV/k6Bt/K1nWwbrda8Q7UbRARrYb7JLyvwv17XHdMS5Q4AaXZLwjMEV7uIvmYQtqHFPxmsg="
+  secure: "IOWSsVJ+7WY7+ZbAHsJ2fvii/ZEXXQZF07mfvLbUxm6ZQG1O1KPJluKMpeGy6NfkMCVi1J9kL20u8LTd4YZ+UL5HnZlymHYV+NpCFA45IrxIJk7O050ta2/wIVjwCtG3MGxyoxVcqTqHt9oBboHorof6g3Z+qbgvEb0/E528zvY="
+after_success:
+    "curl --ftp-create-dirs -T output/* -u $FTP_USER:$FTP_PASSWORD ftp://fwagner.info/fwagner.info"

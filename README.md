@@ -1,6 +1,8 @@
 Source code for personal website www.fwagner.info
 =================================================
 
+[![Build Status](https://travis-ci.org/florian-wagner/website.svg)](https://travis-ci.org/florian-wagner/website)
+
 Built with [Pure Theme](http://purepelican.com/) for
 [Pelican](http://blog.getpelican.com/).
 
