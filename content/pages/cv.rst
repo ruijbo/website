@@ -19,8 +19,15 @@ Education
 .. _`TU Delft`: http://www.tudelft.nl/en/faculty/3me-mse/page/6
 .. _`ETH Zurich`: https://www.ethz.ch/en.html
 
-Professional experience
------------------------
+Practical experience
+--------------------
+
+    **Internship, Trasswerke Meurin, Andernach, Germany (March 2009)**
+
+    Internship at `Trasswerke Meurin Produktions- und Handelsgesellschaft mbH
+    <http://www.meurin.com>`_. Gained experience in the excavation of
+    volcanic rocks for the production of quality construction materials
+    including sieve analyses and strength tests.
 
     **Field Campaign, ETH Zurich, Kloten and Laegeren, Switzerland (June 2010)**
 
@@ -99,4 +106,4 @@ Technical skills
 
 .. class:: sidenote
 
-    A PDF version of this CV can be downloaded `here </static/cv_fwagner.pdf>`_
+    A PDF version of this CV can be downloaded `here </static/cv_fwagner.pdf>`_.

@@ -89,7 +89,6 @@ for year in articles:
         f.write(article["pages"] + ", ")
         f.write("http://dx.doi.org/" + article["doi"] + ".\n\n")
 
-
 f.write("Conference contributions\n")
 f.write("------------------------\n\n")
 

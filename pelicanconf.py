@@ -29,7 +29,7 @@ SOCIAL = (
     ('google', 'http://scholar.google.de/citations?user=mi_Wm7kAAAAJ'),
     ('graduation-cap', 'http://www.researchgate.net/profile/Florian_Wagner5'),
     ('linkedin', 'https://www.linkedin.com/pub/florian-wagner/43/838/970'),
-    ('xing', 'https://www.xing.com/profile/Florian_Wagner92'),
+    ('xing', 'https://www.xing.com/profile/FlorianM_Wagner'),
     ('github', 'https://github.com/florian-wagner')
 )
 
