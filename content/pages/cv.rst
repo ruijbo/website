@@ -38,11 +38,11 @@ Practical experience
     Magnetics.
 
     **Internship in large-scale 3D seismic surveying (July 2010)**
-    
+
     Four week summer internship at `DMT GmbH & Co. KG
     <http://www.dmt.de/en/home.html>`_, Essen, Germany, during a large-scale 3D
     seismic survey in Jointville, France.
-    
+
     Gained hands-on experiences in:
 
     * Large-scale data acquisition
@@ -98,7 +98,7 @@ Technical skills
 ----------------
 
 * *Programming*: Linux, Scientific Python, MATLAB
-* *Inversion*: BERT / GIMLi (`<www.resistivity.net>`_)
+* *Inversion*: BERT / GIMLi (`<www.gimli.org>`_)
 * *Transport Modeling*: Experiences with MODFLOW, SHEMAT and TOUGH2
 * *Seismic Processing*: ProMAX
 * *Office / Writing*: LaTeX, Vim, MS Office
