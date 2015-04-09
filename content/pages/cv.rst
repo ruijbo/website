@@ -98,7 +98,7 @@ Technical skills
 ----------------
 
 * *Programming*: Linux, Scientific Python, MATLAB
-* *Inversion*: BERT / GIMLi (`<www.gimli.org>`_)
+* *Inversion*: BERT / GIMLi (`<http://www.gimli.org>`_)
 * *Transport Modeling*: Experiences with MODFLOW, SHEMAT and TOUGH2
 * *Seismic Processing*: ProMAX
 * *Office / Writing*: LaTeX, Vim, MS Office
@@ -106,4 +106,4 @@ Technical skills
 
 .. class:: sidenote
 
-    A PDF version of this CV can be downloaded `here </static/cv_fwagner.pdf>`_.
+    :fa:`fa-file-pdf-o` A PDF version of this CV can be downloaded `here </static/cv_fwagner.pdf>`_.

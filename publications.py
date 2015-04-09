@@ -72,6 +72,13 @@ conference = parse_bib("content/conference.bib")
 
 f = open("./content/pages/publications.rst", "w")
 
+f.write("""
+.. role:: raw-html(raw)
+   :format: html
+
+""")
+
+pdf = " :raw-html:`<a target=\"_blank\" href=\"%s\"><i class=\"fa fa-file-pdf-o\"></i></a>`"
 f.write("Publications\n")
 f.write("============\n\n")
 
@@ -87,7 +94,10 @@ for year in articles:
         f.write("*" + article["journal"] + "*, ")
         f.write(article["volume"] + ", ")
         f.write(article["pages"] + ", ")
-        f.write("http://dx.doi.org/" + article["doi"] + ".\n\n")
+        f.write("http://dx.doi.org/" + article["doi"] + ".")
+        if "link" in article and len(article["link"]) > 10:
+            f.write(pdf % article["link"])
+        f.write("\n\n")
 
 f.write("Conference contributions\n")
 f.write("------------------------\n\n")
@@ -107,5 +117,6 @@ for year in conference:
         if 'doi' in article:
             f.write(", http://dx.doi.org/" + article["doi"])
         f.write('.\n\n')
-
+        if "link" in article and len(article["link"]) > 10:
+            f.write(pdf % article["link"])
 f.close()

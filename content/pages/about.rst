@@ -26,3 +26,7 @@ scientific `publications`_.
 .. _`IDEA League Joint Master program in Applied Geophysics`: http://www.idealeague.org/geophysic
 .. _`curriculum vitae`: cv.html
 .. _`publications`: publications.html
+
+.. image:: static/wordle.png
+    :alt: Wordle
+    :align: center

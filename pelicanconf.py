@@ -23,6 +23,8 @@ MENUITEMS = (('About me', 'index.html'),
          ('Contact', 'contact.html'),
          )
 
+PLUGINS = ['pelican_fontawesome']
+
 # Social widget
 SOCIAL = (
     ('envelope-o', 'mailto:mail@fwagner.info'),

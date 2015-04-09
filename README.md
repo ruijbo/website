@@ -11,7 +11,7 @@ To build and serve website locally:
 ``` bash
 git clone --recursive https://github.com/florian-wagner/website.git
 cd website
-sudo pip install pelican bibtexparser
+sudo pip install pelican bibtexparser pelican-fontawesome
 make html
 make serve
 # open http://localhost:8000 in your browser
