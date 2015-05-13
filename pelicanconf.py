@@ -9,7 +9,7 @@ SITEURL = ''
 # Path settings
 DELETE_OUTPUT_DIRECTORY = True
 PATH = 'content'
-STATIC_PATHS = ['static']
+STATIC_PATHS = ['static', 'publications']
 TIMEZONE = 'Europe/Paris'
 PAGE_URL = '{slug}.html'
 PAGE_SAVE_AS = PAGE_URL

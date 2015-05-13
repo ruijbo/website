@@ -9,9 +9,9 @@ Built with [Pure Theme](http://purepelican.com/) for
 To build and serve website locally:
 
 ``` bash
+sudo pip install pelican bibtexparser pelican-fontawesome
 git clone --recursive https://github.com/florian-wagner/website.git
 cd website
-sudo pip install pelican bibtexparser pelican-fontawesome
 make html
 make serve
 # open http://localhost:8000 in your browser
