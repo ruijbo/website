@@ -88,11 +88,9 @@ Teaching experience
    * - *Nov. 2012*
      - Introduction to Scientific Computing and Data Visualization using Python
        (Seminar talk at the German Research Centre for Geosciences)
-   * - *Summer 2013*
+   * - *Summer 2013, 2014, 2015*
      - Co-Supervision of the M.Sc. course on Geophysical Field Work and Data
        Processing at ETH Zurich
-   * - *Summer 2014*
-     - "
 
 Technical skills
 ----------------
@@ -102,6 +100,7 @@ Technical skills
 * *Transport Modeling*: Experiences with MODFLOW, SHEMAT and TOUGH2
 * *Seismic Processing*: ProMAX
 * *Office / Writing*: LaTeX, Vim, MS Office
+* *Software development*: Version control (SVN/GIT), Testing & Continuous Integration
 * *Website development*: HTML, CSS, Photoshop, Illustrator
 
 .. class:: sidenote
