@@ -37,6 +37,7 @@ def parse_bib(fname):
 def write_entry(entry, fhandle):
     """ Write beginning on entry. """
 
+    #print(entry)
     fhandle.write("  ")
     if "and" in entry["author"]:
         authors = entry["author"].split("and")
