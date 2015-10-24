@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# encoding: utf-8
+
 """
 File: publications.py
 Author: Florian Wagner <fwagner@gfz-potsdam.de>
@@ -80,6 +83,8 @@ f.write("""
 """)
 
 pdf = " :raw-html:`<a target=\"_blank\" href=\"%s\"><i class=\"fa fa-file-pdf-o\"></i></a>`"
+#citations = " :raw-html:`<object height=\"50\" data=\"http://api.elsevier.com/content/abstract/citation-count?doi=%s&httpAccept=text/html&apiKey=557b7437b48874840f9cb4d8b0650079\"></object>`"
+
 f.write("Publications\n")
 f.write("============\n\n")
 
@@ -95,9 +100,12 @@ for year in articles:
         f.write("*" + article["journal"] + "*, ")
         f.write(article["volume"] + ", ")
         f.write(article["pages"] + ", ")
-        f.write("http://dx.doi.org/" + article["doi"] + ".")
+        if len(article["doi"]) > 3:
+            f.write("http://dx.doi.org/" + article["doi"] + ".")
         if "link" in article and len(article["link"]) > 10:
             f.write(pdf % article["link"])
+        #if len(article["doi"]) > 3:
+            #f.write(citations % article["doi"])
         f.write("\n\n")
 
 f.write("Conference contributions\n")
