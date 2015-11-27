@@ -9,7 +9,7 @@ SITEURL = ''
 # Path settings
 DELETE_OUTPUT_DIRECTORY = True
 PATH = 'content'
-STATIC_PATHS = ['static', 'publications']
+STATIC_PATHS = ['static', 'publications', 'javascript']
 TIMEZONE = 'Europe/Paris'
 PAGE_URL = '{slug}.html'
 PAGE_SAVE_AS = PAGE_URL
@@ -23,7 +23,8 @@ MENUITEMS = (('About me', 'index.html'),
          ('Contact', 'contact.html'),
          )
 
-PLUGINS = ['pelican_fontawesome']
+PLUGIN_PATHS = ['plugins']
+PLUGINS = ['pelican_fontawesome', 'html_rst_directive']
 
 # Social widget
 SOCIAL = (

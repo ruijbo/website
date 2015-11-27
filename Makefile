@@ -44,6 +44,8 @@ help:
 	@echo 'Set the DEBUG variable to 1 to enable debugging, e.g. make DEBUG=1 html'
 	@echo '                                                                       '
 
+all: html serve
+
 bib:
 	python ./publications.py
 

@@ -1,6 +1,11 @@
 :save_as: cv.html
 :title: Curriculum Vitae
 
+.. html::
+
+    <div id="timesheet-default"></div>
+
+
 Education
 ---------
 
@@ -96,7 +101,7 @@ Technical skills
 ----------------
 
 * *Programming*: Linux, Scientific Python, MATLAB
-* *Inversion*: BERT / GIMLi (`<http://www.gimli.org>`_)
+* *Inversion*: BERT / GIMLi (`<http://www.gimli.org>`_), PEST
 * *Transport Modeling*: Experiences with MODFLOW, SHEMAT and TOUGH2
 * *Seismic Processing*: ProMAX
 * *Office / Writing*: LaTeX, Vim, MS Office
