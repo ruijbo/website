@@ -10,3 +10,6 @@ env:
     secure: eO3uvQfKT3i40D4reqPt9c9S1ZRQXXxfkmBeaErU3Mr/M9ki2W/BtvKVhJtAJ66rL1jSUwCuPZMgwP6ExWV0GsiYeMdJDhh8EUD/HyiSB8cNZWv346JNoljvi0iHDha3vPeuFHGN8lBNgMEk/V2+vmCPSM+Y928DDzdr0XUxhwE=
 after_success: cd output && ncftpput -u $FTP_USER -p $FTP_PASSWORD -R ftp.fwagner.info
   /fwagner.info .
+notifications:
+    email:
+      - mail@fwagner.info
