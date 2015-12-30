@@ -44,10 +44,9 @@ def parse_bib(fname):
 def write_entry(entry, fhandle):
     """ Write beginning on entry. """
 
-    #print(entry)
     fhandle.write("  ")
-    if "and" in entry["author"]:
-        authors = entry["author"].split("and")
+    if " and " in entry["author"]:
+        authors = entry["author"].split(" and ")
         ands = True
     else:
         authors = entry["author"].split(',')
@@ -59,6 +58,7 @@ def write_entry(entry, fhandle):
         else:
             name = [n.strip() for n in reversed(author.split())]
 
+        #print(name)
         if "Wagner" in name:
             fhandle.write("**%s %s**" % ("F\. M\.", name[0]))
         else:
@@ -101,7 +101,11 @@ for year in articles:
     f.write("^^^^\n\n")
 
     for article in year[1]:
-        write_entry(article, f)
+        try:
+            write_entry(article, f)
+        except:
+            print(article)
+            raise
         f.write("*" + article["journal"] + "*, ")
         f.write(article["volume"] + ", ")
         f.write(article["pages"] + ", ")
@@ -121,7 +125,11 @@ for year in conference:
     f.write("^^^^\n\n")
 
     for article in year[1]:
-        write_entry(article, f)
+        try:
+            write_entry(article, f)
+        except:
+            print(article)
+            raise
         if 'booktitle' in article:
             f.write("*" + article["booktitle"] + "*")
         elif 'series' in article:
