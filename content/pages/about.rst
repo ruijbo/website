@@ -20,7 +20,7 @@ For more information see my complete `curriculum vitae`_ and a list of
 scientific `publications`_.
 
 .. _`GFZ German Research Centre for Geosciences`: http://www.gfz-potsdam.de/en
-.. _`Centre for Geological Storage`: http://www.gfz-potsdam.de/en/centre/technology-transfer-centres/exploration-and-exploitation/centre-for-geological-storage-cgs/
+.. _`Centre for Geological Storage`: http://www.gfz-potsdam.de/en/section/cgs
 .. _`ETH Zurich`: http://www.eeg.ethz.ch/phds.html
 .. _`Georesources Management`: http://www.rwth-aachen.de/go/id/bllm/?lidx=1
 .. _`IDEA League Joint Master program in Applied Geophysics`: http://www.idealeague.org/geophysics
