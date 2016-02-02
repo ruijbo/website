@@ -18,7 +18,9 @@ Education
      - Applied Geophysics (**M.Sc.**) at the European technical universities
        `TU Delft`_, `ETH Zurich`_ and `RWTH Aachen`_
    * - *since Nov. 2011*
-     - PhD student at GFZ Potsdam / ETH Zurich
+     - Research assistant at GFZ Potsdam
+   * - *since Nov. 2012*
+     - PhD student at ETH Zurich (external)
 
 .. _`RWTH Aachen`: http://www.rwth-aachen.de/cms/~a/root/?lidx=1
 .. _`TU Delft`: http://www.tudelft.nl/en/faculty/3me-mse/page/6
