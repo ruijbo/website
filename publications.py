@@ -84,7 +84,7 @@ f.write("""
 
 """)
 
-pdf = " :raw-html:`<a target=\"_blank\" href=\"%s\"><i class=\"fa fa-file-pdf-o\"></i></a>`"
+link = "  :raw-html:`<a target=\"_blank\" href=\"%s\"><i class=\"fa fa-%s\"></i></a>`"
 #citations = " :raw-html:`<object height=\"50\" data=\"http://api.elsevier.com/content/abstract/citation-count?doi=%s&httpAccept=text/html&apiKey=557b7437b48874840f9cb4d8b0650079\"></object>`"
 
 f.write("""
@@ -110,9 +110,13 @@ for year in articles:
         f.write(article["volume"] + ", ")
         f.write(article["pages"] + ", ")
         if len(article["doi"]) > 3:
-            f.write("http://dx.doi.org/" + article["doi"] + ".")
+            f.write("`DOI:" + article["doi"] + " <http://dx.doi.org/" + article["doi"] + ">`_.")
         if "link" in article and len(article["link"]) > 10:
-            f.write(pdf % article["link"])
+            if article["link"].lower().endswith(".pdf"):
+                icon = "file-pdf-o"
+            else:
+                icon = "external-link"
+            f.write(link % (article["link"], icon))
         #if len(article["doi"]) > 3:
             #f.write(citations % article["doi"])
         f.write("\n\n")
@@ -137,8 +141,13 @@ for year in conference:
         else:
             f.write("*Conference Proceeding*")
         if 'doi' in article:
-            f.write(", http://dx.doi.org/" + article["doi"])
-        f.write('.\n\n')
+            f.write(", `DOI:" + article["doi"] + " <http://dx.doi.org/" + article["doi"] + ">`_")
+        f.write(".")
         if "link" in article and len(article["link"]) > 10:
-            f.write(pdf % article["link"])
+            if article["link"].lower().endswith(".pdf"):
+                icon = "file-pdf-o"
+            else:
+                icon = "external-link"
+            f.write(link % (article["link"], icon))
+        f.write("\n\n")
 f.close()
