@@ -12,7 +12,7 @@ addons:
     - ncftp
     - pandoc
     - texlive-binaries
-    - texlive-extra-utils
+    - texlive-extra
     - texlive-fonts-extra
 
 install:
