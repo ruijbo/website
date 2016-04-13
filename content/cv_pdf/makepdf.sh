@@ -6,5 +6,5 @@ sed -i '/quote/d' publications.tex
 sed -i 's/\\sub/\\/g' publications.tex
 sed -i 's/\\subsection/\\textbf/g' publications.tex
 sed -i 's/^$/\\vspace{0.22cm}\n/g' publications.tex
-latexmk -pdf cv.tex && mv -f cv.pdf ../static/cv_fwagner.pdf
+latexmk -f -pdf cv.tex && mv -f cv.pdf ../static/cv_fwagner.pdf
 
