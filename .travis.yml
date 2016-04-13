@@ -17,6 +17,7 @@ addons:
     - texlive-fonts-recommended
     - texlive-latex-extra
     - texlive-fonts-extra
+    - latexmk
 
 install:
     - pip install pelican bibtexparser pelican-fontawesome
