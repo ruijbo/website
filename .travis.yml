@@ -12,6 +12,8 @@ addons:
     - ncftp
     - pandoc
     - texlive-binaries
+    - texlive-latex-recommended
+    - texlive-latex-extra
     - texlive-fonts-extra
 
 install:
