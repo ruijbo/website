@@ -90,7 +90,6 @@ link = "  :raw-html:`<a target=\"_blank\" href=\"%s\"><i class=\"fa fa-%s\"></i>
 f.write("""
 Publications
 ============
-:class: test
 
 Journal articles
 ----------------
