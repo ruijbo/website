@@ -12,7 +12,9 @@ addons:
     - ncftp
     - pandoc
     - texlive-binaries
+    - latex-xcolor
     - texlive-latex-recommended
+    - texlive-fonts-recommended
     - texlive-latex-extra
     - texlive-fonts-extra
 
