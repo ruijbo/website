@@ -2,7 +2,7 @@
 :slug: about_me
 :title: About me
 
-I am a geophysical research assistant at the `GFZ German Research Centre for
+I am a geophysical research associate at the `GFZ German Research Centre for
 Geosciences`_ in Potsdam, Germany, and an external PhD student at `ETH Zurich`_
 in Switzerland. At the GFZ, I work in the geoelectrical monitoring group in
 `Section 6.3 - Geological Storage`_. Prior to my PhD work, I studied `Georesources

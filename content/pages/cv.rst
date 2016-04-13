@@ -18,7 +18,7 @@ Education
      - Applied Geophysics (**M.Sc.**) at the European technical universities
        `TU Delft`_, `ETH Zurich`_ and `RWTH Aachen`_
    * - *since Nov. 2011*
-     - Research assistant at GFZ Potsdam
+     - Research associate at GFZ Potsdam
    * - *since Nov. 2012*
      - PhD student at ETH Zurich (external)
 
@@ -78,13 +78,15 @@ Scholarships & Awards
      - Private scholarship from RWE Dea AG
    * - *Sep. 2012*
      - Best oral presentation award on the 2nd Science Forum of the
-       Helmholtz-Alberta-Initiative (`HAI <http://www.helmholtzalberta.ca>`_), Potsdam
+       Helmholtz-Alberta-Initiative (`HAI <http://www.helmholtzalberta.ca>`_), Potsdam, Germany
    * - *Sep. 2013*
      - Best oral presentation award on the 3rd Science Forum of the
        Helmholtz-Alberta-Initiative (`HAI <http://www.helmholtzalberta.ca>`_), Edmonton, Canada
    * - *Sep. 2014*
      - Best oral presentation award on the 4th Science Forum of the
        Helmholtz-Alberta-Initiative (`HAI <http://www.helmholtzalberta.ca>`_), Edmonton, Canada
+   * - *Apr. 2016*
+     - 1\ :sup:`st`\  place in category "EGU Talk" at the 11\ :sup:`th`\  annual GFZ PhD Day, Potsdam, Germany
 
 Teaching experience
 -------------------

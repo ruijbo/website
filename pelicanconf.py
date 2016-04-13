@@ -17,7 +17,7 @@ DIRECT_TEMPLATES = ()
 
 DEFAULT_LANG = 'en'
 
-MENUITEMS = (('About me', 'index.html'),
+MENUITEMS = (('About', 'index.html'),
          ('Curriculum Vitae', 'cv.html'),
          ('Publications', 'publications.html'),
          ('Contact', 'contact.html'),
