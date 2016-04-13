@@ -53,7 +53,10 @@ view:
 bib:
 	python ./publications.py
 
-html: bib
+cv:
+	cd ./content/cv_pdf && bash makepdf.sh
+
+html: bib cv
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
 clean:

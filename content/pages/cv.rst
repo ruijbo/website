@@ -5,7 +5,6 @@
 
     <div id="timesheet-default"></div>
 
-
 Education
 ---------
 

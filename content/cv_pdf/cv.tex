@@ -1,0 +1,129 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,serif,linkcolor=true]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual}
+\moderncvcolor{grey}
+\usepackage[scale=0.8]{geometry} % Reduce document margins
+
+\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+% own customizations
+\usepackage[ngerman,english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[default,osfigures,scale=0.95]{opensans}
+\usepackage[T1]{fontenc}
+
+\definecolor{linkblue}{RGB}{50,107,164} % Bootstrap style
+\usepackage{url}
+\urlstyle{same}
+\AtBeginDocument{\hypersetup{colorlinks=true,urlcolor=linkblue,linkcolor=gray}}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Florian M.}
+\familyname{Wagner}
+\title{Curriculum vitae}
+\email{mail@fwagner.info}
+\homepage{www.fwagner.info}{www.fwagner.info}
+\photo[150pt][0pt]{../static/fwagner.jpg}
+\extrainfo{Last updated on \today}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+\section{Work Experience}
+\cventry{since Nov. 2011}{Research associate}{GFZ German Research Centre for Geosciences, Section 6.3 - Geological Storage, Potsdam, Germany}{}{}{Research on geoelectrical CO$_2$ monitoring, field experiments, server administration}
+
+\section{Education}
+\cventry{1997--2006}{Abitur}{Friedrich-Wilhelm-Gymnasium}{Cologne}{}{General qualification for university entrance}  % arguments 3 to 6 can be left empty
+\cventry{2006--2009}{Bachelor of Science}{RWTH Aachen University}{}{}{B.Sc. in Georesources Management}
+\cventry{2009--2011}{Master of Science}{IDEA League: TU Delft, ETH Zurich, RWTH Aachen}{}{}{Joint M.Sc. in Applied Geophysics (\url{http://www.idealeague.org/geophysics})}
+\cventry{since Nov. 2012}{PhD Student}{ETH Zurich}{}{}{}
+
+\section{Practical Experience}
+\cventry{March 2009}{Internship}{Trasswerke Meurin}{Andernach}{Germany}{Internship at Trasswerke Meurin Produktions- und Handelsgesellschaft mbH (\url{www.meurin.com}). Gained experience in the excavation of volcanic rocks for the production of quality construction materials including sieve analyses and strength tests.}
+\cventry{June 2010}{Field Campaign}{ETH Zurich}{Kloten and Laegeren}{Switzerland}{Comprehensive geophysical field work incorporating data acquisition, processing and reporting. Applied measuring techniques included: Electrical Resistivity Tomography (ERT), Seismic Refraction Tomography (SRT), Ground Penetrating Radar (GPR), Electromagnetics (EM31 and EM38), Transient Electromagnetics (TEM) and Magnetics.}
+\cventry{July 2010}{Internship}{DMT GmbH \& Co. KG}{Essen}{Germany}{Large-scale 3D seismic survey by DMT GmbH \& Co. KG (\url{www.dmt.de/en/home.html}) in Jointville, France.
+\newline
+\newline
+Gained hands-on experiences in:
+\begin{itemize}
+\item Large-scale data acquisition
+\item Reflection \& Refraction Seismics
+\item Vertical Seismic Profiling (VSP)
+\item Well Logging
+\item Quality Control
+\end{itemize}
+}
+\cventry{September 2013}{Research visit}{University of Alberta}{Edmonton}{Canada}{
+I worked on acoustic and electrical analysis of reservoir sandstones in the Geomechanical Reservoir Experimental Facility (\url{www.geo-ref.ca}) of the University of Alberta in Edmonton, Canada, under supervision of Dr. Chalaturnyk and his team.
+}
+
+\section{Teaching experience}
+\cvitem{Nov. 2012}{Introduction to Scientific Computing and Data Visualization using Python (Seminar talk at the German Research Centre for Geosciences)}
+\cvitem{2013-2015}{Co-Supervision of the M.Sc. summer block course on Geophysical Field Work and Data Processing at ETH Zurich}
+\cvitem{2012, 2015}{Supervision of two master theses within the IDEA League program}
+
+\section{Scholarships / Awards}
+\cvline{2009--2011}{Private scholarship from RWE Dea AG}
+\cvline{2009--2011}{Co-financing from the education fund of North Rhine-Westphalia}
+\cvline{Sep. 2012}{Best oral presentation award at the 2\textsuperscript{nd} Science Forum of the Helmholtz-Alberta-Initiative, Potsdam, Germany}
+\cvline{Sep. 2013}{Best oral presentation award at the 3\textsuperscript{rd} Science Forum of the Helmholtz-Alberta-Initiative, Edmonton, Canada}
+\cvline{Sep. 2014}{Best oral presentation award at the 4\textsuperscript{th} Science Forum of the Helmholtz-Alberta-Initiative, Edmonton, Canada}
+\cvline{Apr. 2016}{1\textsuperscript{st} place in category "EGU Talk" at the 11\textsuperscript{th} annual GFZ PhD Day, Potsdam, Germany}
+
+\section{Scientific interests}
+\cvline{}{
+\begin{itemize}
+\item Geophysical monitoring of subsurface fluid migration
+\item Tomographic experimental design
+\item Numerical modeling and inversion
+\item Data analysis and parallel computing
+\item Scientific software development (\url{www.gimli.org})
+\end{itemize}
+}
+
+\section{Languages}
+\cvline{German}{Native}
+\cvline{English}{Fluent (oral and written)}
+\cvline{French}{Basic knowledge}
+
+\section{Computer skills}
+\cvcomputer{Programming}{Linux, Scientific Python, MATLAB}{Inversion}{BERT, GIMLi, PEST}
+\cvcomputer{Numerical Modeling}{Experiences in TOUGH2, MODFLOW, SHEMAT}{Office / Writing}{LaTeX, Vim, MS Office}
+\cvcomputer{Seismic Processing}{ProMAX}{Website development}{HTML, CSS, Photoshop, Illustrator}
+
+\small
+\input{publications}
+
+\end{document}

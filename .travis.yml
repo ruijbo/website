@@ -10,6 +10,9 @@ addons:
   apt:
     packages:
     - ncftp
+    - pandoc
+    - texlive
+    - texlive-latex-extra
 
 install:
     - pip install pelican bibtexparser pelican-fontawesome
