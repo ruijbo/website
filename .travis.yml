@@ -21,6 +21,6 @@ addons:
 install:
     - pip install pelican bibtexparser pelican-fontawesome
 script:
-    - make html
+    - make html-cv
 after_success:
     - cd output && ncftpput -u $FTP_USER -p $FTP_PASSWORD -R ftp.fwagner.info /fwagner.info .

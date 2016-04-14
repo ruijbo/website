@@ -56,7 +56,10 @@ bib:
 cv:
 	cd ./content/cv_pdf && bash makepdf.sh
 
-html: bib cv
+html: bib
+	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
+
+html-cv: bib cv
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
 clean:
