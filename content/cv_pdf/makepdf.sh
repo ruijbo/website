@@ -8,7 +8,7 @@ sed -i '/quote/d' publications.tex
 sed -i 's/\\sub/\\/g' publications.tex
 sed -i 's/\\subsection/\\textbf/g' publications.tex
 sed -i 's/^$/\\vspace{0.22cm}\n/g' publications.tex
-sed -i 's/:raw-html:.*$//g' publications.tex
+sed -i 's/:raw-html:.*\n/\n/g' publications.tex
 ($tex && $tex && $tex) || echo "PDF compilation failed."
 if [[ -f cv.pdf ]]; then
     echo "Moving new PDF to download folder."
