@@ -8,11 +8,11 @@ sed -i '1,2d' publications.tex
 sed -i '/quote/d' publications.tex
 sed -i 's/\\sub/\\/g' publications.tex
 sed -i 's/\\subsection/\\textbf/g' publications.tex
-sed -i 's/^$/\\vspace{0.22cm}\n/g' publications.tex
 
 # Delete raw html (newer pandoc versions do it automatically)
 sed -i 's/:raw-html:/\n\n:raw-html:/g' publications.tex
 sed -i '/:raw-html:/,/^$/d' publications.tex
+sed -i 's/^$/\\vspace{0.22cm}\n/g' publications.tex
 
 ($tex && $tex && $tex) || echo "PDF compilation failed."
 if [[ -f cv.pdf ]]; then
