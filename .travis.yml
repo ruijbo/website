@@ -12,12 +12,11 @@ addons:
     - ncftp
     - pandoc
     - texlive-binaries
-    - latex-xcolor
     - texlive-latex-recommended
     - texlive-fonts-recommended
     - texlive-latex-extra
     - texlive-fonts-extra
-    - latexmk
+    - latex-xcolor
 
 install:
     - pip install pelican bibtexparser pelican-fontawesome
