@@ -16,14 +16,25 @@ Education
    * - *2009 - 2011*
      - Applied Geophysics (**M.Sc.**) at the European technical universities
        `TU Delft`_, `ETH Zurich`_ and `RWTH Aachen`_
-   * - *since Nov. 2011*
-     - Research associate at GFZ Potsdam
-   * - *since Nov. 2012*
-     - PhD student at ETH Zurich (external)
+   * - *2012 - 2016*
+     - Doctor of Sciences (**Dr. sc.**) at `ETH Zurich`_, `Department of Earth Sciences`_.
 
+.. _`Department of Earth Sciences`: https://www.erdw.ethz.ch/
 .. _`RWTH Aachen`: http://www.rwth-aachen.de/cms/~a/root/?lidx=1
 .. _`TU Delft`: http://www.tudelft.nl/en/faculty/3me-mse/page/6
 .. _`ETH Zurich`: https://www.ethz.ch/en.html
+
+Professional experience
+-----------------------
+
+.. list-table::
+   :widths: 5 20
+
+   * - *Nov. 2011 - May 2016*
+     - Research associate at `GFZ German Research Centre for Geosciences`_, `Section 6.3 - Geological Storage`_.
+
+.. _`GFZ German Research Centre for Geosciences`: http://www.gfz-potsdam.de/en
+.. _`Section 6.3 - Geological Storage`: http://www.gfz-potsdam.de/en/section/cgs
 
 Practical experience
 --------------------

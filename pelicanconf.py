@@ -19,6 +19,7 @@ DEFAULT_LANG = 'en'
 
 MENUITEMS = (('About', 'index.html'),
          ('Curriculum Vitae', 'cv.html'),
+         ('Dissertation', 'thesis.html'),
          ('Publications', 'publications.html'),
          ('Contact', 'contact.html'),
          )
