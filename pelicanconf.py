@@ -15,6 +15,10 @@ PAGE_URL = '{slug}.html'
 PAGE_SAVE_AS = PAGE_URL
 DIRECT_TEMPLATES = ()
 
+EXTRA_PATH_METADATA = {
+    'static/favicon.ico': {'path': 'favicon.ico'}
+}
+
 DEFAULT_LANG = 'en'
 
 MENUITEMS = (('About', 'index.html'),

@@ -31,6 +31,7 @@ storage at Ketzin, Germany.
 .. image:: static/diss.png
     :width: 90%
     :alt: Cover page
+    :target: http://dx.doi.org/10.3929/ethz-a-010636965
 
 .. raw:: html
 
