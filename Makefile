@@ -49,7 +49,7 @@ all: html-cv serve
 	chromium http://localhost:8000
 
 bib:
-	python ./publications.py
+	./generate_bib.py
 
 cv:
 	cd ./content/cv_pdf && bash makepdf.sh

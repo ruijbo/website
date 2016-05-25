@@ -1,5 +1,5 @@
-:save_as: cv.html
-:title: Curriculum Vitae
+Curriculum Vitae
+================
 
 .. html::
 

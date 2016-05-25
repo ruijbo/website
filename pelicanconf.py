@@ -1,16 +1,22 @@
 from __future__ import unicode_literals
 import datetime
+import os
 
 # General settings
 AUTHOR = 'Florian M. Wagner'
-SITENAME = 'Florian M. Wagner'
-SITEURL = ''
+SITENAME = AUTHOR
+
+if "TRAVIS" in os.environ:
+    SITEURL = 'http://www.fwagner.info'
+else:
+    SITEURL = 'http://localhost:8000'
 
 # Path settings
 DELETE_OUTPUT_DIRECTORY = True
 PATH = 'content'
-STATIC_PATHS = ['static', 'publications', 'javascript']
+STATIC_PATHS = ['static', 'paper', 'javascript']
 TIMEZONE = 'Europe/Paris'
+SLUGIFY_SOURCE = 'basename'
 PAGE_URL = '{slug}.html'
 PAGE_SAVE_AS = PAGE_URL
 DIRECT_TEMPLATES = ()
@@ -21,11 +27,11 @@ EXTRA_PATH_METADATA = {
 
 DEFAULT_LANG = 'en'
 
-MENUITEMS = (('About', 'index.html'),
-         ('Curriculum Vitae', 'cv.html'),
-         ('Dissertation', 'thesis.html'),
-         ('Publications', 'publications.html'),
-         ('Contact', 'contact.html'),
+MENUITEMS = (('About', ''),
+         ('Curriculum Vitae', 'cv'),
+         ('Dissertation', 'thesis'),
+         ('Publications', 'publications'),
+         ('Contact', 'contact'),
          )
 
 PLUGIN_PATHS = ['plugins']
@@ -50,4 +56,4 @@ TODAY = datetime.date.today().isoformat()
 THEME = 'themes/pure-single'
 PROFILE_IMG_URL = '/static/fwagner.jpg'
 COVER_IMG_URL = '/static/bg.jpg'
-TAGLINE = "Geophysicist / Data Scientist"
+TAGLINE = 'Geophysicist / Data Scientist'

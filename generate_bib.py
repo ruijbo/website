@@ -2,7 +2,7 @@
 # encoding: utf-8
 
 """
-File: publications.py
+File: generate_bib.py
 Author: Florian Wagner <fwagner@gfz-potsdam.de>
 Description: Create RST reference list from bibtex file.
 Created on: 2015-01-17
@@ -76,25 +76,25 @@ def write_entry(entry, fhandle):
 articles = parse_bib("content/articles.bib")
 conference = parse_bib("content/conference.bib")
 
-f = open("./content/pages/publications.rst", "w")
-
-f.write("""
-.. role:: raw-html(raw)
-   :format: html
-
-""")
-
 link = "  :raw-html:`<a target=\"_blank\" href=\"%s\"><i class=\"fa fa-%s\"></i></a>`"
 #citations = " :raw-html:`<object height=\"50\" data=\"http://api.elsevier.com/content/abstract/citation-count?doi=%s&httpAccept=text/html&apiKey=557b7437b48874840f9cb4d8b0650079\"></object>`"
+
+# Write main file
+f = open("content/pages/publications.rst", "w")
 
 f.write("""
 Publications
 ============
+:slug: publications
+
+.. role:: raw-html(raw)
+   :format: html
 
 Journal articles
 ----------------
 """)
 
+num_articles = 0
 for year in articles:
     f.write(year[0] + "\n")
     f.write("^^^^\n\n")
@@ -119,10 +119,12 @@ for year in articles:
         #if len(article["doi"]) > 3:
             #f.write(citations % article["doi"])
         f.write("\n\n")
+        num_articles += 1
 
 f.write("Conference contributions\n")
 f.write("------------------------\n\n")
 
+num_conference = 0
 for year in conference:
     f.write(year[0] + "\n")
     f.write("^^^^\n\n")
@@ -149,4 +151,13 @@ for year in conference:
                 icon = "external-link"
             f.write(link % (article["link"], icon))
         f.write("\n\n")
+        num_conference += 1
+
+print("Wrote %d journals articles and %d conference contributions to publications.rst." % (num_articles, num_conference))
+
+f.write("""
+.. class:: sidenote
+
+    :fa:`fa-file-pdf-o` A PDF version of my CV including a list of publications can be downloaded `here </static/cv_fwagner.pdf>`_.
+""")
 f.close()

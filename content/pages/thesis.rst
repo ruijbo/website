@@ -1,6 +1,5 @@
-:save_as: thesis.html
-:slug: thesis
-:title: PhD thesis
+PhD thesis
+==========
 
 Abstract
 --------
@@ -28,7 +27,7 @@ storage at Ketzin, Germany.
 
     </div><div class="pure-u-1-3"><div align="right">
 
-.. image:: static/diss.png
+.. image:: /static/diss.png
     :width: 90%
     :alt: Cover page
     :target: http://dx.doi.org/10.3929/ethz-a-010636965

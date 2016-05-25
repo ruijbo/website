@@ -1,6 +1,6 @@
+About me
+========
 :save_as: index.html
-:slug: about_me
-:title: About me
 
 I am a geophysical research associate at the `GFZ German Research Centre for
 Geosciences`_ in Potsdam, Germany, and an external PhD student at `ETH Zurich`_
