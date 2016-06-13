@@ -4,7 +4,7 @@ tex="pdflatex -interaction=nonstopmode cv.tex"
 pubtex="publications.tex"
 
 pandoc ../pages/publications.rst -o tmp.tex
-head -n -3 tmp.tex > $pubtex
+head -n -2 tmp.tex > $pubtex
 
 sed -i '1,2d' $pubtex
 sed -i '/quote/d' $pubtex
@@ -17,7 +17,7 @@ sed -i '/:raw-html:/,/^$/d' $pubtex
 sed -i 's/^$/\\vspace{0.22cm}\n/g' $pubtex
 
 # Make CO2 subscript
-sed -i 's/CO2/CO\\textsubscript{2}/g' $pubtex
+sed -i 's/CO2/CO$_2$/g' $pubtex
 sed -i 's/1st/1\\textsuperscript{st}/g' $pubtex
 sed -i 's/2nd/2\\textsuperscript{nd}/g' $pubtex
 sed -i 's/3rd/3\\textsuperscript{rd}/g' $pubtex
