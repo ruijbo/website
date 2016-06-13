@@ -41,6 +41,16 @@ def parse_bib(fname):
 
     return refsbyyear
 
+def subs(string):
+    """Perform some string substitutions."""
+    string = string.replace("CO2", "CO\ :sub:`2`")
+    string = string.replace("1st", "1\ :sup:`st`")
+    string = string.replace("2nd", "2\ :sup:`nd`")
+    string = string.replace("3rd", "3\ :sup:`rd`")
+    string = re.sub(r"(\d+)th", r"\1\ :sup:`th`", string)
+    string = gimli.sub('`pyGIMLi\ <http://www.pygimli.org/>`_', string)
+    return string
+
 def write_entry(entry, fhandle):
     """ Write beginning on entry. """
 
@@ -68,10 +78,7 @@ def write_entry(entry, fhandle):
         else:
             fhandle.write(" (" + entry["year"] + "): ")
 
-    title = entry["title"].replace("CO2", "CO\ :sub:`2`\ ")
-    title = gimli.sub('`pyGIMLi\ <http://www.pygimli.org/>`_', title)
-
-    fhandle.write(title + ". ")
+    fhandle.write(subs(entry["title"]) + ". ")
 
 articles = parse_bib("content/articles.bib")
 conference = parse_bib("content/conference.bib")
@@ -136,9 +143,9 @@ for year in conference:
             print(article)
             raise
         if 'booktitle' in article:
-            f.write("*" + article["booktitle"] + "*")
+            f.write(subs(article["booktitle"]))
         elif 'series' in article:
-            f.write("*" + article["series"] + "*")
+            f.write(subs(article["series"]))
         else:
             f.write("*Conference Proceeding*")
         if 'doi' in article:
@@ -158,6 +165,6 @@ print("Wrote %d journals articles and %d conference contributions to publication
 f.write("""
 .. class:: sidenote
 
-    :fa:`fa-file-pdf-o` A PDF version of my CV including a list of publications can be downloaded `here </static/cv_fwagner.pdf>`_.
+    :fa:`fa-file-pdf-o` A PDF version of my CV including this list of publications can be downloaded `here </static/cv_fwagner.pdf>`_.
 """)
 f.close()

@@ -1,24 +1,26 @@
 #!/bin/bash
 
 tex="pdflatex -interaction=nonstopmode cv.tex"
+pubtex="publications.tex"
 
-pandoc ../pages/publications.rst -o publications.tex
+pandoc ../pages/publications.rst -o tmp.tex
+head -n -3 tmp.tex > $pubtex
 
-sed -i '1,2d' publications.tex
-sed -i '/quote/d' publications.tex
-sed -i 's/\\sub/\\/g' publications.tex
-sed -i 's/\\subsection/\\textbf/g' publications.tex
+sed -i '1,2d' $pubtex
+sed -i '/quote/d' $pubtex
+sed -i 's/\\sub/\\/g' $pubtex
+sed -i 's/\\subsection/\\textbf/g' $pubtex
 
 # Delete raw html (newer pandoc versions do it automatically)
-sed -i 's/:raw-html:/\n\n:raw-html:/g' publications.tex
-sed -i '/:raw-html:/,/^$/d' publications.tex
-sed -i 's/^$/\\vspace{0.22cm}\n/g' publications.tex
+sed -i 's/:raw-html:/\n\n:raw-html:/g' $pubtex
+sed -i '/:raw-html:/,/^$/d' $pubtex
+sed -i 's/^$/\\vspace{0.22cm}\n/g' $pubtex
 
 # Make CO2 subscript
-sed -i 's/CO2/CO\\textsubscript{2}/g' publications.tex
-sed -i 's/1st/1\\textsuperscript{st}/g' publications.tex
-sed -i 's/2nd/2\\textsuperscript{nd}/g' publications.tex
-sed -i 's/3rd/3\\textsuperscript{rd}/g' publications.tex
+sed -i 's/CO2/CO\\textsubscript{2}/g' $pubtex
+sed -i 's/1st/1\\textsuperscript{st}/g' $pubtex
+sed -i 's/2nd/2\\textsuperscript{nd}/g' $pubtex
+sed -i 's/3rd/3\\textsuperscript{rd}/g' $pubtex
 
 ($tex && $tex && $tex) || echo "PDF compilation failed."
 if [[ -f cv.pdf ]]; then
