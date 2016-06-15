@@ -20,6 +20,7 @@ SLUGIFY_SOURCE = 'basename'
 PAGE_URL = '{slug}.html'
 PAGE_SAVE_AS = PAGE_URL
 DIRECT_TEMPLATES = ()
+ARTICLE_EXCLUDES = ['javascript']
 
 EXTRA_PATH_METADATA = {
     'static/favicon.ico': {'path': 'favicon.ico'}
@@ -51,6 +52,7 @@ DEFAULT_PAGINATION = False
 
 # For modification date in footer
 TODAY = datetime.date.today().isoformat()
+DEFAULT_DATE = 'fs'
 
 # Theme settings
 THEME = 'themes/pure-single'

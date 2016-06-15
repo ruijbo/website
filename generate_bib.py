@@ -83,7 +83,8 @@ def write_entry(entry, fhandle):
 articles = parse_bib("content/articles.bib")
 conference = parse_bib("content/conference.bib")
 
-link = "  :raw-html:`<a target=\"_blank\" href=\"%s\"><i class=\"fa fa-%s\"></i></a>`"
+link = "  :raw-html:`<a target=\"_blank\" href=\"/javascript/pdfjs/web/viewer.html?file=%s#pagemode=thumbs\"><i class=\"fa fa-%s\"></i></a>`"
+link_ex = "  :raw-html:`<a target=\"_blank\" href=\"%s\"><i class=\"fa fa-%s\"></i></a>`"
 #citations = " :raw-html:`<object height=\"50\" data=\"http://api.elsevier.com/content/abstract/citation-count?doi=%s&httpAccept=text/html&apiKey=557b7437b48874840f9cb4d8b0650079\"></object>`"
 
 # Write main file
@@ -122,7 +123,10 @@ for year in articles:
                 icon = "file-pdf-o"
             else:
                 icon = "external-link"
-            f.write(link % (article["link"], icon))
+            if not article["link"].startswith("."):
+                f.write(link_ex % (article["link"], icon))
+            else:
+                f.write(link % (article["link"][1:], icon))
         #if len(article["doi"]) > 3:
             #f.write(citations % article["doi"])
         f.write("\n\n")
@@ -156,7 +160,10 @@ for year in conference:
                 icon = "file-pdf-o"
             else:
                 icon = "external-link"
-            f.write(link % (article["link"], icon))
+            if not article["link"].startswith("."):
+                f.write(link_ex % (article["link"], icon))
+            else:
+                f.write(link % (article["link"][1:], icon))
         f.write("\n\n")
         num_conference += 1
 
