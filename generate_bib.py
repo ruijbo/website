@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 # encoding: utf-8
-
 """
 File: generate_bib.py
 Author: Florian Wagner <fwagner@gfz-potsdam.de>
@@ -9,15 +8,16 @@ Created on: 2015-01-17
 """
 
 from __future__ import print_function
+
+import re
+from collections import defaultdict
+
 from bibtexparser import load
 from bibtexparser.bparser import BibTexParser
 from bibtexparser.customization import convert_to_unicode
-import re
 
-from collections import defaultdict
-
-import re
 gimli = re.compile(re.escape('pygimli'), re.IGNORECASE)
+
 
 def parse_bib(fname):
     """ Read bibtex file and sort by year. """
@@ -36,10 +36,11 @@ def parse_bib(fname):
 
     refsbyyear = []
     for year in refs.keys():
-        refsbyyear.append((year,refs[year]))
+        refsbyyear.append((year, refs[year]))
     refsbyyear.sort(key=lambda x: x[0], reverse=True)
 
     return refsbyyear
+
 
 def subs(string):
     """Perform some string substitutions."""
@@ -50,6 +51,7 @@ def subs(string):
     string = re.sub(r"(\d+)th", r"\1\ :sup:`th`", string)
     string = gimli.sub('`pyGIMLi\ <http://www.pygimli.org/>`_', string)
     return string
+
 
 def write_entry(entry, fhandle):
     """ Write beginning on entry. """
@@ -79,6 +81,7 @@ def write_entry(entry, fhandle):
             fhandle.write(" (" + entry["year"] + "): ")
 
     fhandle.write(subs(entry["title"]) + ". ")
+
 
 articles = parse_bib("content/articles.bib")
 conference = parse_bib("content/conference.bib")
@@ -117,7 +120,8 @@ for year in articles:
         f.write(article["volume"] + ", ")
         f.write(article["pages"] + ", ")
         if len(article["doi"]) > 3:
-            f.write("`DOI:" + article["doi"] + " <http://dx.doi.org/" + article["doi"] + ">`_.")
+            f.write("`DOI:" + article["doi"] + " <http://dx.doi.org/" +
+                    article["doi"] + ">`_.")
         if "link" in article and len(article["link"]) > 10:
             if article["link"].lower().endswith(".pdf"):
                 icon = "file-pdf-o"
@@ -128,7 +132,7 @@ for year in articles:
             else:
                 f.write(link % (article["link"][1:], icon))
         #if len(article["doi"]) > 3:
-            #f.write(citations % article["doi"])
+        #f.write(citations % article["doi"])
         f.write("\n\n")
         num_articles += 1
 
@@ -153,7 +157,8 @@ for year in conference:
         else:
             f.write("*Conference Proceeding*")
         if 'doi' in article:
-            f.write(", `DOI:" + article["doi"] + " <http://dx.doi.org/" + article["doi"] + ">`_")
+            f.write(", `DOI:" + article["doi"] + " <http://dx.doi.org/" +
+                    article["doi"] + ">`_")
         f.write(".")
         if "link" in article and len(article["link"]) > 10:
             if article["link"].lower().endswith(".pdf"):
@@ -167,7 +172,9 @@ for year in conference:
         f.write("\n\n")
         num_conference += 1
 
-print("Wrote %d journals articles and %d conference contributions to publications.rst." % (num_articles, num_conference))
+print(
+    "Wrote %d journals articles and %d conference contributions to publications.rst."
+    % (num_articles, num_conference))
 
 f.write("""
 .. class:: sidenote

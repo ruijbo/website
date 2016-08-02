@@ -31,8 +31,11 @@ Professional experience
    :widths: 5 20
 
    * - *Nov. 2011 - May 2016*
-     - Research associate at `GFZ German Research Centre for Geosciences`_, `Section 6.3 - Geological Storage`_
+     - Research associate at the `GFZ German Research Centre for Geosciences`_, `Section 6.3 - Geological Storage`_
+   * - *since August 2016*
+     - Postdoctoral research associate at the `Department of Geophysics, University of Bonn`_
 
+.. _`Department of Geophysics, University of Bonn`: https://www.geo.uni-bonn.de/?set_language=en
 .. _`GFZ German Research Centre for Geosciences`: http://www.gfz-potsdam.de/en
 .. _`Section 6.3 - Geological Storage`: http://www.gfz-potsdam.de/en/section/cgs
 
