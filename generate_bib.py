@@ -11,6 +11,7 @@ from __future__ import print_function
 
 import re
 from collections import defaultdict
+from operator import itemgetter
 
 from bibtexparser import load
 from bibtexparser.bparser import BibTexParser
@@ -36,7 +37,8 @@ def parse_bib(fname):
 
     refsbyyear = []
     for year in refs.keys():
-        refsbyyear.append((year, refs[year]))
+        refsbyyear.append((year, sorted(refs[year], key=itemgetter("author"), reverse=True)))
+
     refsbyyear.sort(key=lambda x: x[0], reverse=True)
 
     return refsbyyear
