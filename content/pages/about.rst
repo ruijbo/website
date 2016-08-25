@@ -13,6 +13,7 @@ My research interests include:
 * Tomographic experimental design
 * Numerical modeling and inversion
 * Data analysis and parallel computing
+* Scientific software development
 
 For more information see my complete `curriculum vitae`_ and a list of
 `scientific publications`_.
@@ -24,6 +25,6 @@ For more information see my complete `curriculum vitae`_ and a list of
 .. _`curriculum vitae`: cv.html
 .. _`scientific publications`: publications.html
 
-.. image:: static/wordle.png
+.. figure:: static/wordle.png
     :alt: Wordle
     :align: center
