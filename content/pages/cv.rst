@@ -1,10 +1,6 @@
 Curriculum Vitae
 ================
 
-.. html::
-
-    <div id="timesheet-default"></div>
-
 Education
 ---------
 
@@ -42,42 +38,42 @@ Professional experience
 Practical experience
 --------------------
 
-    **Internship, Trasswerke Meurin, Andernach, Germany (March 2009)**
+  **Internship, Trasswerke Meurin, Andernach, Germany (March 2009)**
 
-    Internship at `Trasswerke Meurin Produktions- und Handelsgesellschaft mbH
-    <http://www.meurin.com>`_. Gained experience in the excavation of
-    volcanic rocks for the production of quality construction materials
-    including sieve analyses and strength tests.
+  Internship at `Trasswerke Meurin Produktions- und Handelsgesellschaft mbH
+  <http://www.meurin.com>`_. Gained experience in the excavation of
+  volcanic rocks for the production of quality construction materials
+  including sieve analyses and strength tests.
 
-    **Field Campaign, ETH Zurich, Kloten and Laegeren, Switzerland (June 2010)**
+  **Field Campaign, ETH Zurich, Kloten and Laegeren, Switzerland (June 2010)**
 
-    Comprehensive geophysical field work incorporating data acquisition, processing
-    and reporting. Applied measuring techniques included: Electrical Resistivity
-    Tomography (ERT), Seismic Refraction Tomography (SRT), Ground Penetrating Radar
-    (GPR), Electromagnetics (EM31 and EM38), Transient Electromagnetics (TEM) and
-    Magnetics.
+  Comprehensive geophysical field work incorporating data acquisition, processing
+  and reporting. Applied measuring techniques included: Electrical Resistivity
+  Tomography (ERT), Seismic Refraction Tomography (SRT), Ground Penetrating Radar
+  (GPR), Electromagnetics (EM31 and EM38), Transient Electromagnetics (TEM) and
+  Magnetics.
 
-    **Internship in large-scale 3D seismic surveying (July 2010)**
+  **Internship in large-scale 3D seismic surveying (July 2010)**
 
-    Four week summer internship at `DMT GmbH & Co. KG
-    <http://www.dmt.de/en/home.html>`_, Essen, Germany, during a large-scale 3D
-    seismic survey in Jointville, France.
+  Four week summer internship at `DMT GmbH & Co. KG
+  <http://www.dmt.de/en/home.html>`_, Essen, Germany, during a large-scale 3D
+  seismic survey in Jointville, France.
 
-    Gained hands-on experiences in:
+  Gained hands-on experiences in:
 
-    * Large-scale data acquisition
-    * Reflection & Refraction Seismics
-    * Vertical Seismic Profiling (VSP)
-    * Well Logging
-    * Quality Control
+  * Large-scale data acquisition
+  * Reflection & Refraction Seismics
+  * Vertical Seismic Profiling (VSP)
+  * Well Logging
+  * Quality Control
 
-    **Research visit at the University of Alberta (September 2013)**
+  **Research visit at the University of Alberta (September 2013)**
 
-    I worked on acoustic and electrical analysis of reservoir sandstones in the
-    Geomechanical Reservoir Experimental Facility (`GeoREF
-    <http://www.geo-ref.ca>`_) of the `University of Alberta
-    <http://www.ualberta.ca>`_ in Edmonton, Canada, under supervision of Dr.
-    Chalaturnyk and his team.
+  I worked on acoustic and electrical analysis of reservoir sandstones in the
+  Geomechanical Reservoir Experimental Facility (`GeoREF
+  <http://www.geo-ref.ca>`_) of the `University of Alberta
+  <http://www.ualberta.ca>`_ in Edmonton, Canada, under supervision of Dr.
+  Chalaturnyk and his team.
 
 Scholarships & Awards
 ---------------------
@@ -127,4 +123,4 @@ Technical skills
 
 .. class:: sidenote
 
-    :fa:`fa-file-pdf-o` A PDF version of this CV can be downloaded `here </static/cv_fwagner.pdf>`_.
+  :fa:`fa-file-pdf-o` A PDF version of this CV can be downloaded `here </static/cv_fwagner.pdf>`_.

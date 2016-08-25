@@ -1,5 +1,5 @@
-About me
-========
+About
+=====
 :save_as: index.html
 
 I am a geophysical research associate at the `University of Bonn`_, Germany.

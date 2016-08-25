@@ -58,7 +58,6 @@ def subs(string):
 def write_entry(entry, fhandle):
     """ Write beginning on entry. """
 
-    fhandle.write("  ")
     if " and " in entry["author"]:
         authors = entry["author"].split(" and ")
         ands = True
@@ -181,6 +180,6 @@ print(
 f.write("""
 .. class:: sidenote
 
-    :fa:`fa-file-pdf-o` A PDF version of my CV including this list of publications can be downloaded `here </static/cv_fwagner.pdf>`_.
+  :fa:`fa-file-pdf-o` A PDF version of my CV including this list of publications can be downloaded `here </static/cv_fwagner.pdf>`_.
 """)
 f.close()

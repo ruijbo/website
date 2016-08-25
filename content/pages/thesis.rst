@@ -3,7 +3,7 @@ PhD thesis
 
 .. raw:: html
 
-    <div class="pure-g"><div class="pure-u-2-3">
+    <div class="pure-u-2-3">
 
 In the context of climate change, the geological storage of carbon dioxide (CO\
 :sub:`2`) is considered as a transitional technology to reduce anthropogenic
@@ -32,7 +32,7 @@ storage at Ketzin, Germany.
 
 .. raw:: html
 
-    </div></div></div>
+    </div></div>
 
 .. class:: sidenote
 
