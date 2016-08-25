@@ -25,6 +25,6 @@ For more information see my complete `curriculum vitae`_ and a list of
 .. _`curriculum vitae`: cv.html
 .. _`scientific publications`: publications.html
 
-.. figure:: static/wordle.png
+.. image:: static/wordle.png
     :alt: Wordle
     :align: center
