@@ -40,12 +40,12 @@ PLUGINS = ['pelican_fontawesome', 'html_rst_directive']
 
 # Social widget
 SOCIAL = (
-    ('ai ai-google-scholar ai-2x', 'http://scholar.google.de/citations?user=mi_Wm7kAAAAJ'),
-    ('ai ai-researchgate ai-2x', 'http://www.researchgate.net/profile/Florian_Wagner5'),
-    ('ai ai-orcid ai-2x', 'http://orcid.org/0000-0001-7407-9741'),
-    ('fa fa-linkedin fa-2x', 'https://www.linkedin.com/in/fmwagner'),
-    ('fa fa-xing fa-2x', 'https://www.xing.com/profile/FlorianM_Wagner'),
-    ('fa fa-github fa-2x', 'https://github.com/florian-wagner')
+    ('google-scholar', 'http://scholar.google.de/citations?user=mi_Wm7kAAAAJ'),
+    ('researchgate', 'http://www.researchgate.net/profile/Florian_Wagner5'),
+    ('orcid', 'http://orcid.org/0000-0001-7407-9741'),
+    ('linkedin', 'https://www.linkedin.com/in/fmwagner'),
+    ('xing', 'https://www.xing.com/profile/FlorianM_Wagner'),
+    ('github', 'https://github.com/florian-wagner')
 )
 
 DEFAULT_PAGINATION = False
