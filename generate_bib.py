@@ -87,8 +87,8 @@ def write_entry(entry, fhandle):
 articles = parse_bib("content/articles.bib")
 conference = parse_bib("content/conference.bib")
 
-link = "  :raw-html:`<a target=\"_blank\" href=\"/javascript/pdfjs/web/viewer.html?file=%s#pagemode=thumbs\"><i class=\"fa fa-%s\"></i></a>`"
-link_ex = "  :raw-html:`<a target=\"_blank\" href=\"%s\"><i class=\"fa fa-%s\"></i></a>`"
+link = "  :raw-html:`<a target=\"_blank\" href=\"/javascript/pdfjs/web/viewer.html?file=%s#pagemode=thumbs\"><i class=\"icon-%s\"></i></a>`"
+link_ex = "  :raw-html:`<a target=\"_blank\" href=\"%s\"><i class=\"icon-%s\"></i></a>`"
 #citations = " :raw-html:`<object height=\"50\" data=\"http://api.elsevier.com/content/abstract/citation-count?doi=%s&httpAccept=text/html&apiKey=557b7437b48874840f9cb4d8b0650079\"></object>`"
 
 # Write main file
@@ -180,6 +180,6 @@ print(
 f.write("""
 .. class:: sidenote
 
-  :fa:`fa-file-pdf-o` A PDF version of my CV including this list of publications can be downloaded `here </static/cv_fwagner.pdf>`_.
+  :icon:`file-pdf-o` A PDF version of my CV including this list of publications can be downloaded `here </static/cv_fwagner.pdf>`_.
 """)
 f.close()

@@ -123,4 +123,4 @@ Technical skills
 
 .. class:: sidenote
 
-  :fa:`fa-file-pdf-o` A PDF version of this CV can be downloaded `here </static/cv_fwagner.pdf>`_.
+  :icon:`file-pdf-o` A PDF version of this CV can be downloaded `here </static/cv_fwagner.pdf>`_.

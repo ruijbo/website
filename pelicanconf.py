@@ -1,10 +1,12 @@
 from __future__ import unicode_literals
 import datetime
 import os
+import subprocess
 
 # General settings
 AUTHOR = 'Florian M. Wagner'
 SITENAME = AUTHOR
+SRCURL = 'https://github.com/florian-wagner/website'
 
 if "TRAVIS" in os.environ:
     SITEURL = 'http://www.fwagner.info'
@@ -36,7 +38,7 @@ MENUITEMS = (('About', ''),
          )
 
 PLUGIN_PATHS = ['plugins']
-PLUGINS = ['pelican_fontawesome', 'html_rst_directive']
+PLUGINS = ['html_rst_directive', 'icons']
 
 # Social widget
 SOCIAL = (
@@ -49,6 +51,15 @@ SOCIAL = (
 )
 
 DEFAULT_PAGINATION = False
+
+# Get the current git commit hash
+COMMIT = ''
+process = subprocess.Popen('git rev-parse HEAD'.split(), cwd='.',
+                           stdout=subprocess.PIPE)
+git_hash = process.communicate()[0].strip().decode('utf-8')
+if git_hash:
+    COMMIT = "{url}/commit/{commit}".format(
+    url=SRCURL, commit=git_hash, commit_link=git_hash)
 
 # For modification date in footer
 TODAY = datetime.date.today().isoformat()
