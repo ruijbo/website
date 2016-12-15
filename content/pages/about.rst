@@ -4,7 +4,7 @@ About
 
 I am a geophysical research associate at the `University of Bonn`_, Germany.
 Prior to my postdoctoral research, I worked at the `GFZ German Research Centre
-for Geosciences`_ in Potsdam, Germany, and obtained a PhD from `ETH Zurich`_ in
+for Geosciences`_ in Potsdam and obtained a PhD from `ETH Zurich`_ in
 Switzerland.
 
 My research interests include:
@@ -27,4 +27,3 @@ For more information see my complete `curriculum vitae`_ and a list of
 
 .. image:: static/wordle.png
     :alt: Wordle
-    :align: center
