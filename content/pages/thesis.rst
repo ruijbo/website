@@ -1,11 +1,9 @@
 PhD thesis
 ==========
 
-Abstract
---------
 .. raw:: html
 
-    <div class="pure-g"><div class="pure-u-2-3">
+    <div class="pure-u-2-3">
 
 In the context of climate change, the geological storage of carbon dioxide (CO\
 :sub:`2`) is considered as a transitional technology to reduce anthropogenic
@@ -34,8 +32,10 @@ storage at Ketzin, Germany.
 
 .. raw:: html
 
-    </div></div></div>
+    </div></div>
 
 .. class:: sidenote
 
-    Wagner, Florian Michael. New developments in electrical resistivity imaging with applications to geological CO\ :sub:`2` storage. ETH-Zürich (2016). http://dx.doi.org/10.3929/ethz-a-010636965 :fa:`fa-file-pdf-o`
+    Wagner, Florian Michael. New developments in electrical resistivity imaging
+    with applications to geological CO\ :sub:`2` storage. ETH-Zürich (2016).
+    http://dx.doi.org/10.3929/ethz-a-010636965 :icon:`file-pdf-o` :icon:`openaccess`

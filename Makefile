@@ -49,12 +49,15 @@ all: html-cv serve
 	chromium http://localhost:8000
 
 bib:
-	./generate_bib.py
+	$(PY) generate_bib.py
 
 cv:
 	cd ./content/cv_pdf && bash makepdf.sh
 
 html: bib
+	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
+
+html-nobib: 
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
 html-cv: bib cv

@@ -19,7 +19,7 @@ addons:
     - latex-xcolor
 
 install:
-    - pip install pelican bibtexparser pelican-fontawesome
+    - pip install pelican bibtexparser
 script:
     - make html-cv
 after_success:

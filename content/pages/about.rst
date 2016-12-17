@@ -1,13 +1,11 @@
-About me
-========
+About
+=====
 :save_as: index.html
 
-I am a geophysical research associate at the `GFZ German Research Centre for
-Geosciences`_ in Potsdam, Germany, and an external PhD student at `ETH Zurich`_
-in Switzerland. At the GFZ, I work in the geoelectrical monitoring group in
-`Section 6.3 - Geological Storage`_. Prior to my PhD work, I studied `Georesources
-Management`_ at RWTH Aachen University and participated in the `IDEA League
-Joint Master program in Applied Geophysics`_.
+I am a geophysical research associate at the `University of Bonn`_, Germany.
+Prior to my postdoctoral research, I worked at the `GFZ German Research Centre
+for Geosciences`_ in Potsdam and obtained a PhD from `ETH Zurich`_ in
+Switzerland.
 
 My research interests include:
 
@@ -15,18 +13,17 @@ My research interests include:
 * Tomographic experimental design
 * Numerical modeling and inversion
 * Data analysis and parallel computing
+* Scientific software development
 
 For more information see my complete `curriculum vitae`_ and a list of
-scientific `publications`_.
+`scientific publications`_.
 
+.. _`University of Bonn`: https://www.geo.uni-bonn.de/?set_language=en
 .. _`GFZ German Research Centre for Geosciences`: http://www.gfz-potsdam.de/en
-.. _`Section 6.3 - Geological Storage`: http://www.gfz-potsdam.de/en/section/cgs
 .. _`ETH Zurich`: http://www.eeg.ethz.ch/phds.html
 .. _`Georesources Management`: http://www.rwth-aachen.de/go/id/bllm/?lidx=1
-.. _`IDEA League Joint Master program in Applied Geophysics`: http://www.idealeague.org/geophysics
 .. _`curriculum vitae`: cv.html
-.. _`publications`: publications.html
+.. _`scientific publications`: publications.html
 
 .. image:: static/wordle.png
     :alt: Wordle
-    :align: center
