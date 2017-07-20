@@ -9,7 +9,7 @@ SITENAME = AUTHOR
 SRCURL = 'https://github.com/florian-wagner/website'
 
 if "TRAVIS" in os.environ:
-    SITEURL = 'http://www.fwagner.info'
+    SITEURL = 'https://www.fwagner.info'
 else:
     SITEURL = 'http://localhost:8000'
 
