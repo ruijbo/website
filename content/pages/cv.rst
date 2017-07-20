@@ -109,6 +109,10 @@ Teaching experience
    * - *Summer 2013, 2014, 2015*
      - Co-Supervision of the M.Sc. course on Geophysical Field Work and Data
        Processing at ETH Zurich
+   * - *WS16/17*
+     - Block course: `Hydrogeophysical process simulation <https://www.geo.uni-bonn.de/lehre/lehrangebot/copy_of_hydrogeophysik>`_ (University of Bonn)
+   * - *SS17*
+     - Lectures: `Environmental geophysics <https://www.geo.uni-bonn.de/lehre/lehrangebot/geo-naturrisiken-b-erdbeben>`_ and `Inverse modelling <https://www.geo.uni-bonn.de/lehre/lehrangebot/inverse-modellierung>`_ (University of Bonn)
 
 Technical skills
 ----------------
