@@ -71,7 +71,7 @@ def write_entry(entry, fhandle):
         else:
             name = [n.strip() for n in reversed(author.split())]
 
-        #print(name)
+        print(name)
         if "Wagner" in name:
             fhandle.write("**%s %s**" % ("F\. M\.", name[0]))
         else:
