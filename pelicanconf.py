@@ -47,6 +47,7 @@ SOCIAL = (
     ('orcid', 'http://orcid.org/0000-0001-7407-9741'),
     ('linkedin', 'https://www.linkedin.com/in/fmwagner'),
     ('xing', 'https://www.xing.com/profile/FlorianM_Wagner'),
+    ('twitter', 'https://twitter.com/Fl0rianWagner'),
     ('github', 'https://github.com/florian-wagner')
 )
 

@@ -84,18 +84,20 @@ Scholarships & Awards
    * - *2009 - 2011*
      - Scholarship from the education fund of North Rhine-Westphalia
    * - *2009 - 2011*
-     - Private scholarship from RWE Dea AG
-   * - *Sep. 2012*
+     - Private scholarship from RWE Dea AG (4.000 €)
+   * - *Sept. 2012*
      - Best oral presentation award on the 2nd Science Forum of the
        Helmholtz-Alberta-Initiative (`HAI <http://www.helmholtzalberta.ca>`_), Potsdam, Germany
-   * - *Sep. 2013*
+   * - *Sept. 2013*
      - Best oral presentation award on the 3rd Science Forum of the
        Helmholtz-Alberta-Initiative (`HAI <http://www.helmholtzalberta.ca>`_), Edmonton, Canada
    * - *Sep. 2014*
      - Best oral presentation award on the 4th Science Forum of the
        Helmholtz-Alberta-Initiative (`HAI <http://www.helmholtzalberta.ca>`_), Edmonton, Canada
    * - *Apr. 2016*
-     - 1\ :sup:`st`\  place in category "EGU Talk" at the 11\ :sup:`th`\  annual GFZ PhD Day, Potsdam, Germany
+     - First place in category "EGU Talk" at the 11\ :sup:`th`\  annual GFZ PhD Day, Potsdam, Germany
+   * - *Sept. 2017*
+     - `Water-Monitoring award <https://www.deutsches-stiftungszentrum.de/aktuelles/2017_09_12_wasser-monitoring-preis>`_ by the `Dr. Erich Ritter foundation <https://www.deutsches-stiftungszentrum.de/stiftungen/dr-erich-ritter-stiftung>`_ in coorperation with the `Water Science Alliance e.V. <http://www.watersciencealliance.org>`_ (50.000 €)
 
 Teaching experience
 -------------------
