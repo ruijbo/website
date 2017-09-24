@@ -36,5 +36,5 @@ For more information see my complete `curriculum vitae`_ and a list of
 .. raw:: html
 
     </div><div class="pure-u-1-3"><div align="right">
-    <a class="twitter-timeline" data-lang="en" data-height="650px" data-chrome="noheader nofooter" data-link-color="#337ab7" href="https://twitter.com/Fl0rianWagner">Tweets by Florian Wagner</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <a class="twitter-timeline" data-lang="en" data-height="650px" data-chrome="noheader nofooter noborders" data-link-color="#337ab7" href="https://twitter.com/Fl0rianWagner">Tweets by Florian Wagner</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div></div>
