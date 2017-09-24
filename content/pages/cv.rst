@@ -97,7 +97,7 @@ Scholarships & Awards
    * - *Apr. 2016*
      - First place in category "EGU Talk" at the 11\ :sup:`th`\  annual GFZ PhD Day, Potsdam, Germany
    * - *Sept. 2017*
-     - `Water-Monitoring award <https://www.deutsches-stiftungszentrum.de/aktuelles/2017_09_12_wasser-monitoring-preis>`_ by the `Dr. Erich Ritter foundation <https://www.deutsches-stiftungszentrum.de/stiftungen/dr-erich-ritter-stiftung>`_ in coorperation with the `Water Science Alliance e.V. <http://www.watersciencealliance.org>`_ (50.000 €)
+     - `Water-Monitoring award <https://www.deutsches-stiftungszentrum.de/aktuelles/2017_09_12_wasser-monitoring-preis>`_ by the `Dr. Erich Ritter foundation <https://www.deutsches-stiftungszentrum.de/stiftungen/dr-erich-ritter-stiftung>`_ in cooperation with the `Water Science Alliance e.V. <http://www.watersciencealliance.org>`_ (50.000 €)
 
 Teaching experience
 -------------------
