@@ -42,7 +42,7 @@ PLUGINS = ['html_rst_directive', 'icons']
 
 # Social widget
 SOCIAL = (
-    ('google-scholar', 'http://scholar.google.de/citations?user=mi_Wm7kAAAAJ'),
+    ('google-scholar', 'https://scholar.google.de/citations?hl=de&user=mi_Wm7kAAAAJ&view_op=list_works&sortby=pubdate'),
     ('researchgate', 'http://www.researchgate.net/profile/Florian_Wagner5'),
     ('orcid', 'http://orcid.org/0000-0001-7407-9741'),
     ('linkedin', 'https://www.linkedin.com/in/fmwagner'),
