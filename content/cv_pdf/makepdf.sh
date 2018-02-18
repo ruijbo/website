@@ -4,9 +4,9 @@ tex="pdflatex -interaction=nonstopmode cv.tex"
 pubtex="publications.tex"
 
 pandoc ../pages/publications.rst -o tmp.tex
-head -n -3 tmp.tex > $pubtex
 
-sed -i '1,6d' $pubtex
+head -n -3 tmp.tex > $pubtex
+sed -i '/journal-articles/,$!d' $pubtex
 sed -i '/quote/d' $pubtex
 sed -i 's/\\sub/\\/g' $pubtex
 sed -i 's/\\subsection/\\textbf/g' $pubtex

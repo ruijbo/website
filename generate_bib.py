@@ -19,7 +19,6 @@ from bibtexparser.customization import convert_to_unicode
 
 gimli = re.compile(re.escape('pygimli'), re.IGNORECASE)
 
-
 def parse_bib(fname):
     """ Read bibtex file and sort by year. """
 
@@ -37,8 +36,17 @@ def parse_bib(fname):
 
     refsbyyear = []
     for year in refs.keys():
-        refsbyyear.append((year, sorted(refs[year], key=itemgetter("author"), reverse=True)))
+        yearlist = sorted(refs[year], key=itemgetter("author"), reverse=True)
+        sortedlist = []
+        for entry in yearlist:
+            if entry["author"].startswith("Wagner") or entry["author"].startswith("F. M."):
+                sortedlist.insert(0, entry)
+            else:
+                sortedlist.append(entry)
 
+        refsbyyear.append((year, sortedlist))
+
+    # Newest year first
     refsbyyear.sort(key=lambda x: x[0], reverse=True)
 
     return refsbyyear
@@ -71,11 +79,10 @@ def write_entry(entry, fhandle):
         else:
             name = [n.strip() for n in reversed(author.split())]
 
-        print(name)
         if "Wagner" in name:
-            fhandle.write("**%s %s**" % ("F\. M\.", name[0]))
+            fhandle.write("**%s, %s**" % (name[0], "F\. M\."))
         else:
-            fhandle.write("%s %s" % (name[1][0] + "\.", name[0]))
+            fhandle.write("%s, %s" % (name[0], name[1][0] + "\."))
         if i < len(authors) - 1:
             fhandle.write(", ")
         else:
@@ -117,12 +124,22 @@ for year in articles:
         except:
             print(article)
             raise
-        f.write("*" + article["journal"] + "*, ")
-        f.write(article["volume"] + ", ")
-        f.write(article["pages"] + ", ")
-        if len(article["doi"]) > 3:
-            f.write("`DOI:" + article["doi"] + " <http://dx.doi.org/" +
-                    article["doi"] + ">`_.")
+        f.write("*" + article["journal"] + "*")
+        if "volume" in article:
+            f.write(", ")
+            f.write(article["volume"] + ", ")
+            f.write(article["pages"] + ", ")
+            if len(article["doi"]) > 3:
+                f.write("`DOI:" + article["doi"] + " <http://dx.doi.org/" +
+                        article["doi"] + ">`_")
+        else:
+            print("No volume info found for", article)
+
+        if "note" in article:
+            f.write(" (%s)" % article["note"])
+
+        f.write(". ")
+
         if "link" in article and len(article["link"]) > 10:
             if article["link"].lower().endswith(".pdf"):
                 icon = "file-pdf-o"
@@ -160,6 +177,10 @@ for year in conference:
         if 'doi' in article:
             f.write(", `DOI:" + article["doi"] + " <http://dx.doi.org/" +
                     article["doi"] + ">`_")
+
+        if "note" in article:
+            f.write(" (%s)" % article["note"])
+
         f.write(".")
         if "link" in article and len(article["link"]) > 10:
             if article["link"].lower().endswith(".pdf"):
