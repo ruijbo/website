@@ -28,7 +28,7 @@ storage at Ketzin, Germany.
 .. image:: /static/diss.png
     :width: 90%
     :alt: Cover page
-    :target: http://dx.doi.org/10.3929/ethz-a-010636965
+    :target: https://doi.org/10.3929/ethz-a-010636965
 
 .. raw:: html
 
@@ -38,4 +38,4 @@ storage at Ketzin, Germany.
 
     Wagner, Florian Michael. New developments in electrical resistivity imaging
     with applications to geological CO\ :sub:`2` storage. ETH-Zürich (2016).
-    http://dx.doi.org/10.3929/ethz-a-010636965 :icon:`file-pdf-o` :icon:`openaccess`
+    https://doi.org/10.3929/ethz-a-010636965 :icon:`file-pdf-o` :icon:`openaccess`

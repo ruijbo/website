@@ -130,7 +130,7 @@ for year in articles:
             f.write(article["volume"] + ", ")
             f.write(article["pages"] + ", ")
             if len(article["doi"]) > 3:
-                f.write("`DOI:" + article["doi"] + " <http://dx.doi.org/" +
+                f.write("`DOI:" + article["doi"] + " <https://doi.org/" +
                         article["doi"] + ">`_")
         else:
             print("No volume info found for", article)
@@ -175,7 +175,7 @@ for year in conference:
         else:
             f.write("*Conference Proceeding*")
         if 'doi' in article:
-            f.write(", `DOI:" + article["doi"] + " <http://dx.doi.org/" +
+            f.write(", `DOI:" + article["doi"] + " <https://doi.org/" +
                     article["doi"] + ">`_")
 
         if "note" in article:
