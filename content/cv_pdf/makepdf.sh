@@ -1,6 +1,7 @@
 #!/bin/bash
 
-tex="pdflatex -interaction=nonstopmode -halt-on-error rcv.tex"
+texname="cv.tex"
+tex="pdflatex -interaction=nonstopmode -halt-on-error $texname"
 pubtex="publications.tex"
 
 pandoc ../pages/publications.rst -o tmp.tex
