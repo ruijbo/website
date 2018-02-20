@@ -1,6 +1,6 @@
 #!/bin/bash
 
-tex="pdflatex -interaction=nonstopmode cv.tex"
+tex="pdflatex -interaction=nonstopmode -halt-on-error rcv.tex"
 pubtex="publications.tex"
 
 pandoc ../pages/publications.rst -o tmp.tex
@@ -26,4 +26,7 @@ sed -i 's/3rd/3\\textsuperscript{rd}/g' $pubtex
 if [[ -f cv.pdf ]]; then
     echo "Moving new PDF to download folder."
     mv -f cv.pdf ../static/cv_fwagner.pdf
+else
+    echo "Exiting since no PDF was created."
+    exit 1
 fi
