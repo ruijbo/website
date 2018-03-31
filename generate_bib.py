@@ -2,7 +2,7 @@
 # encoding: utf-8
 """
 File: generate_bib.py
-Author: Florian Wagner <fwagner@gfz-potsdam.de>
+Author: Florian Wagner <mail@fwagner.info>
 Description: Create RST reference list from bibtex file.
 Created on: 2015-01-17
 """
@@ -94,8 +94,8 @@ def write_entry(entry, fhandle):
 articles = parse_bib("content/articles.bib")
 conference = parse_bib("content/conference.bib")
 
-link = "  :raw-html:`<a target=\"_blank\" href=\"/javascript/pdfjs/web/viewer.html?file=%s#pagemode=thumbs\"><i class=\"icon-%s\"></i></a>`"
-link_ex = "  :raw-html:`<a target=\"_blank\" href=\"%s\"><i class=\"icon-%s\"></i></a>`"
+link = "  :raw-html:`<a target=\"_blank\" href=\"/javascript/pdfjs/web/viewer.html?file=%s#pagemode=thumbs\"><i class=\"icon-%s\" title=\"Download PDF\" style=\"color:green\"></i></a>`"
+link_ex = "  :raw-html:`<a target=\"_blank\" href=\"%s\"><i class=\"icon-%s\" style=\"color:green\" title=\"Download PDF\"></i></a>`"
 #citations = " :raw-html:`<object height=\"50\" data=\"http://api.elsevier.com/content/abstract/citation-count?doi=%s&httpAccept=text/html&apiKey=557b7437b48874840f9cb4d8b0650079\"></object>`"
 
 # Write main file
@@ -128,12 +128,14 @@ for year in articles:
         if "volume" in article:
             f.write(", ")
             f.write(article["volume"] + ", ")
-            f.write(article["pages"] + ", ")
-            if len(article["doi"]) > 3:
-                f.write("`DOI:" + article["doi"] + " <https://doi.org/" +
-                        article["doi"] + ">`_")
+            f.write(article["pages"])
         else:
             print("No volume info found for", article)
+
+        if "doi" in article:
+            if len(article["doi"]) > 3:
+                f.write(", ")
+                f.write("`DOI:" + article["doi"] + " <https://doi.org/" + article["doi"] + ">`_")
 
         if "note" in article:
             f.write(" (%s)" % article["note"])
