@@ -142,15 +142,15 @@ for year in articles:
 
         f.write(". ")
 
-        if "link" in article and len(article["link"]) > 10:
-            if article["link"].lower().endswith(".pdf"):
+        if "url" in article and len(article["url"]) > 10:
+            if article["url"].lower().endswith(".pdf"):
                 icon = "file-pdf-o"
             else:
                 icon = "external-link"
-            if not article["link"].startswith("."):
-                f.write(link_ex % (article["link"], icon))
+            if not article["url"].startswith("."):
+                f.write(link_ex % (article["url"], icon))
             else:
-                f.write(link % (article["link"][1:], icon))
+                f.write(link % (article["url"][1:], icon))
         #if len(article["doi"]) > 3:
         #f.write(citations % article["doi"])
         f.write("\n\n")
@@ -184,15 +184,15 @@ for year in conference:
             f.write(" (%s)" % article["note"])
 
         f.write(".")
-        if "link" in article and len(article["link"]) > 10:
-            if article["link"].lower().endswith(".pdf"):
+        if "url" in article and len(article["url"]) > 10:
+            if article["url"].lower().endswith(".pdf"):
                 icon = "file-pdf-o"
             else:
                 icon = "external-link"
-            if not article["link"].startswith("."):
-                f.write(link_ex % (article["link"], icon))
+            if not article["url"].startswith("."):
+                f.write(link_ex % (article["url"], icon))
             else:
-                f.write(link % (article["link"][1:], icon))
+                f.write(link % (article["url"][1:], icon))
         f.write("\n\n")
         num_conference += 1
 
