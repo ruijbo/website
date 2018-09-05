@@ -40,6 +40,8 @@
 \usepackage[scaled]{helvet}
 \usepackage{fixltx2e}
 \usepackage{eurosym}
+\usepackage{enumitem}
+\setenumerate{label=(\roman*),itemsep=3pt,topsep=3pt}
 
 \renewcommand*\familydefault{\sfdefault} %% Only if the base font of the document is to be sans serif
 \usepackage[T1]{fontenc}
@@ -68,14 +70,28 @@
 
 \makecvtitle % Print the CV title
 
-\section{Education}
-\cventry{2006--2009}{Bachelor of Science}{RWTH Aachen University}{}{}{B.Sc. in Georesources Management}
-\cventry{2009 --2011}{Master of Science}{IDEA League: TU Delft, ETH Zurich, RWTH Aachen}{}{}{Joint M.Sc. in Applied Geophysics (\url{http://www.idealeague.org/geophysics})}
-\cventry{2012--2016}{Doctor of Sciences}{ETH Zurich}{Department of Earth Sciences}{}{Supervisors: Prof. Dr. Hansruedi Maurer and Dr. Cornelia Schmidt-Hattenberger (GFZ)\\Dissertation: \url{www.diss.fwagner.info}}
-
 \section{Professional Experience}
-\cventry{Nov. 2011\\-- May 2016}{Research associate}{GFZ German Research Centre for Geosciences, Section 6.3 - Geological Storage, Potsdam, Germany}{}{}{Research on geoelectrical CO$\textsubscript{2}$ monitoring, field experiments, server administration}
-\cventry{since Aug. 2016}{Postdoctoral research associate}{University of Bonn, Department of Geophysics}{}{}{}
+\cventry{since Sept. 2018}{Visiting scholar}{Earth \& Environmental Sciences Area, Lawrence Berkeley National Laboratory}{Berkeley, CA}{USA}{Joint inversion of seismic refraction and electrical resistivity data.}
+\cventry{since Aug. 2016}{Postdoctoral research associate}{University of Bonn, Department of Geophysics}{Bonn}{Germany}{Research on joint and process-based imaging for permafrost characterization and monitoring as well as teaching \& theses supervision on Bachelor and Master level.}
+\cventry{Nov. 2011\\-- May 2016}{Research associate}{GFZ German Research Centre for Geosciences, Section 6.3 - Geological Storage}{Potsdam}{Germany}{Research on geoelectrical CO$\textsubscript{2}$ monitoring, field experiments, server administration.}
+
+\section{Education}
+\cventry{2012--2016}{Doctor of Sciences}{ETH Zurich}{Department of Earth Sciences}{}{Supervisors: Prof. Dr. Hansruedi Maurer and Dr. Cornelia Schmidt-Hattenberger (GFZ)\\Dissertation: \url{www.diss.fwagner.info}}
+\cventry{2009 --2011}{Master of Science}{IDEA League: TU Delft, ETH Zurich, RWTH Aachen}{}{}{Joint M.Sc. in Applied Geophysics (\url{http://www.idealeague.org/geophysics})}
+\cventry{2006--2009}{Bachelor of Science}{RWTH Aachen University}{}{}{B.Sc. in Georesources Management}
+
+\section{Scientific interests}
+\vspace{-.4cm}
+\cvline{}{
+\begin{itemize}[noitemsep,topsep=0pt]
+\item Geophysical monitoring of subsurface fluid migration
+\item Permafrost characterization
+\item Tomographic experimental design
+\item Numerical modeling and (process-based/joint) inversion
+\item Scientific software development (\url{www.pygimli.org})
+\end{itemize}
+}
+\vspace{-.4cm}
 
 %\section{Practical Experience}
 %\cventry{March 2009}{Internship}{Trasswerke Meurin}{Andernach}{Germany}{Internship at Trasswerke Meurin Produktions- und Handelsgesellschaft mbH (\url{www.meurin.com}). Gained experience in the excavation of volcanic rocks for the production of quality construction materials including sieve analyses and strength tests.}
@@ -96,35 +112,58 @@
 %I worked on acoustic and electrical analysis of reservoir sandstones in the Geomechanical Reservoir Experimental Facility (\url{www.geo-ref.ca}) of the University of Alberta in Edmonton, Canada, under supervision of Dr. Chalaturnyk and his team.
 %}
 
-\section{Teaching experience}
-\cvitem{Nov. 2012}{Introduction to Scientific Computing and Data Visualization using Python (Seminar talk at the German Research Centre for Geosciences)}
-\cvitem{SS 2013, 2014, 2015}{Co-Supervision of the M.Sc. summer block course on Geophysical Field Work and Data Processing at ETH Zurich}
-%\cvitem{2012, 2015}{Supervision of two master theses within the IDEA League program}
-\cvitem{WS16/17, WS17/18}{Block course: Hydrogeophysical process modelling (University of Bonn)}
-\cvitem{SS17}{Lectures: Environmental geophysics and Inverse Modelling (University of Bonn)}
-\cvitem{SS18}{Seminar + field course: Applied Hydrogeophysics (University of Bonn)}
-
-\section{Scholarships / Awards}
-\cvline{2009--2011}{Private scholarship from DEA Deutsche Erdoel AG}
-\cvline{2009--2011}{Co-financing from the education fund of North Rhine-Westphalia}
-\cvline{Sept. 2012}{Best oral presentation award at the 2\textsuperscript{nd} Science Forum of the Helmholtz-Alberta-Initiative, Potsdam, Germany}
-\cvline{Sept. 2013}{Best oral presentation award at the 3\textsuperscript{rd} Science Forum of the Helmholtz-Alberta-Initiative, Edmonton, Canada}
-\cvline{Sept. 2014}{Best oral presentation award at the 4\textsuperscript{th} Science Forum of the Helmholtz-Alberta-Initiative, Edmonton, Canada}
-\cvline{Apr. 2016}{First place in category ``EGU Talk'' at the 11\textsuperscript{th} annual GFZ PhD Day, Potsdam, Germany}
-\cvline{Sept. 2017}{Water-Monitoring award by the Dr. Erich Ritter foundation in cooperation with the Water Science Alliance e.V. (50.000 \euro)}
-
-\section{Scientific interests}
-\cvline{}{
-\begin{itemize}
-\item Geophysical monitoring of subsurface fluid migration
-\item Tomographic experimental design
-\item Numerical modeling and (process-based) inversion
-\item Data analysis and parallel computing
-\item Scientific software development (\url{www.pygimli.org})
+\section{Teaching}
+%\setlength{\hintscolumnwidth}{4cm}
+\cvline{2016 -- 2018\\University of Bonn}{\vspace{-\baselineskip}
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textit{Environmental geophysics}, Lecture, B.Sc. % & Universität Bonn & B.Sc. & DE & SS17\\
+\item \textit{Inverse modeling}, Lecture, M.Sc. % & Universität Bonn & M.Sc. & EN & SS17\\
+\item \textit{Hydrogeophysical process simulation}, Block course, M.Sc. % & Universität Bonn & M.Sc. & DE / EN & WS16/17 \& WS17/18\\
+\item \textit{Applied hydrogeophysics}, Seminar \& field course, M.Sc. % & Universität Bonn & M.Sc. & DE & SS18 \\
+\item Supervision of five Bachelor and two Master theses
+\end{itemize}
+}\vspace{-.35cm}
+\cvline{2013 -- 2015\\ETH Zurich}{\vspace{-\baselineskip}
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textit{Geophysical field work and data processing}, Field course \& block course, M.Sc. % & ETH Zürich & M.Sc. & EN & SS13, SS14, SS15\\
+\item Supervision of a master thesis and committee member during oral defense
+\end{itemize}
+} \vspace{-.35cm}
+\cvline{Other}{\vspace{-\baselineskip}
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textit{Modeling \& inversion with \href{http://www.pygimli.org/}{pyGIMLi}}, One-day course, Univ. of Leipzig, Sept. 2016
+\item \textit{Scientific computing with Python}, One-day course, GFZ Potsdam, Nov. 2012% & GFZ Potsdam & - & DE & Nov. 2012 \\
 \end{itemize}
 }
+\vspace{-.4cm}
 
+\section{Scholarships \& Awards}
+\cvline{Sept. 2017}{\textit{Wasser-Monitoring-Preis} (50.000 \euro) awarded by the Dr. Erich Ritter foundation in cooperation with the Water Science Alliance e.V.  (\href{http://www.deutsches-stiftungszentrum.de/aktuelles/2017_09_12_wasser-monitoring-preis}{\nolinkurl{www.deutsches-stiftungszentrum.de/aktuelles/2017_09_12_wasser-monitoring-preis}})}
+\cvline{Apr. 2016}{1\textsuperscript{st} place in category "EGU Talk" at the 11\textsuperscript{th} annual GFZ PhD Day, Potsdam, Germany}
+\cvline{Sept. 2014}{Best oral presentation award at the 4\textsuperscript{th} Science Forum of the Helmholtz-Alberta-Initiative (\href{http://www.helmholtz-alberta.org}{www.helmholtz-alberta.org}), Edmonton, Canada}
+\cvline{Sept. 2013}{Best oral presentation award at the 3\textsuperscript{rd} Science Forum of the Helmholtz-Alberta-Initiative, Edmonton, Canada}
+\cvline{Sept. 2012}{Best oral presentation award at the 2\textsuperscript{nd} Science Forum of the Helmholtz-Alberta-Initiative, Potsdam, Germany}
+\cvline{2009--2011}{Scholarship from the education fund of North Rhine-Westphalia}
+\cvline{2009--2011}{Private scholarship from DEA Deutsche Erdoel AG (\href{http://www.dea-group.com/en}{\nolinkurl{www.dea-group.com/en}})}
+
+\section{Invited conference contributions}
 \footnotesize
+\begin{itemize}[label={},itemindent=-1.8em,leftmargin=1.8em]
+\item \textbf{Wagner, F. M.}, Wiese, B., Schmidt-Hattenberger, C., Maurer, H.
+(2016): Insights on CO\textsubscript{2} Migration Based on a
+Multi-physical Inverse Reservoir Modeling Framework.
+78\textsuperscript{th} EAGE Conference \& Exhibition, 30 May - 2 June
+2016, Vienna, WS10-Quantitative Data Integration and Joint Inversion
+from Surface to Reservoir,
+\href{https://doi.org/10.3997/2214-4609.201601659}{\url{DOI:10.3997/2214-4609.201601659}}.
+\item \textbf{Wagner, F. M.}, Rücker, C., Günther, T. (2017): Reproducible
+hydrogeophysical inversions through the open-source library
+\href{http://www.pygimli.org/}{pyGIMLi}. AGU Fall Meeting, New Orleans,
+11-15 Dec 2017, Open-Source Software in the Geosciences (NS41B-0016),
+\href{https://doi.org/10.5281/zenodo.1095621}{\url{DOI:10.5281/zenodo.1095621}}.
+\end{itemize}
+
+
 \input{publications}
 
 \end{document}
