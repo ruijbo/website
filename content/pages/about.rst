@@ -26,7 +26,7 @@ For more information see my complete `curriculum vitae`_ and a list of
 .. _`Earth and Environmental Sciences Area at Lawrence Berkeley National Laboratory`: https://eesa.lbl.gov/
 .. _`University of Bonn`: https://www.geo.uni-bonn.de/
 .. _`GFZ German Research Centre for Geosciences`: http://www.gfz-potsdam.de/en
-.. _`ETH Zurich`: http://www.eeg.ethz.ch/phds.html
+.. _`ETH Zurich`: http://www.eeg.ethz.ch/
 .. _`Georesources Management`: http://www.rwth-aachen.de/go/id/bllm/?lidx=1
 .. _`curriculum vitae`: cv.html
 .. _`scientific publications`: publications.html
