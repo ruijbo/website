@@ -29,12 +29,12 @@ Professional experience
    * - *Nov. 2011 - May 2016*
      - Research associate at the `GFZ German Research Centre for Geosciences`_, `Section 6.3 - Geological Storage`_
    * - *since August 2016*
-     - Postdoctoral research associate at the `University of Bonn, Steinmann Institute, Department of Geophysics`_
-   * - *since Sept. 2018*
+     - Postdoctoral research associate at the `University of Bonn, Geophysics Section`_
+   * - *Sept. 2018 - Dec. 2018*
      - Visiting scholar within `Earth and Environmental Sciences Area at Lawrence Berkeley National Laboratory`_
 
 .. _`Earth and Environmental Sciences Area at Lawrence Berkeley National Laboratory`: https://eesa.lbl.gov/
-.. _`University of Bonn, Steinmann Institute, Department of Geophysics`: https://www.geo.uni-bonn.de/?set_language=en
+.. _`University of Bonn, Geophysics Section`: https://www.geo.uni-bonn.de/?set_language=en
 .. _`GFZ German Research Centre for Geosciences`: http://www.gfz-potsdam.de/en
 .. _`Section 6.3 - Geological Storage`: http://www.gfz-potsdam.de/en/section/cgs
 
@@ -80,6 +80,8 @@ Teaching experience
      - Lectures: *Environmental geophysics* and *Inverse modelling* (University of Bonn)
    * - *SS18*
      - Seminar + field course: *Applied Hydrogeophysics* (University of Bonn)
+   * - *Dec 2018*
+     - Workshop at AGU100: `*Best Practices for Modern Open-Source Research Codes* <https://agu.confex.com/agu/fm18/meetingapp.cgi/Session/52075>`_
 
 .. class:: sidenote
 

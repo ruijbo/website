@@ -6,7 +6,7 @@ About
 
     <div class="pure-u-2-3">
 
-I am a geophysical research associate at the `University of Bonn`_, Germany, and currently a visiting scholar within the `Earth and Environmental Sciences Area at Lawrence Berkeley National Laboratory`_.
+I am a geophysical research associate at the `University of Bonn`_, Germany.
 Prior to my postdoctoral research, I worked at the `GFZ German Research Centre
 for Geosciences`_ in Potsdam and obtained a PhD from `ETH Zurich`_ in
 Switzerland.
@@ -23,7 +23,6 @@ For more information see my complete `curriculum vitae`_ and a list of
 `scientific publications`_.
 
 .. _`www.pygimli.org`: https://www.pygimli.org
-.. _`Earth and Environmental Sciences Area at Lawrence Berkeley National Laboratory`: https://eesa.lbl.gov/
 .. _`University of Bonn`: https://www.geo.uni-bonn.de/
 .. _`GFZ German Research Centre for Geosciences`: http://www.gfz-potsdam.de/en
 .. _`ETH Zurich`: http://www.eeg.ethz.ch/
