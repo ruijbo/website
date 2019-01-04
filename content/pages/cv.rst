@@ -81,7 +81,7 @@ Teaching experience
    * - *SS18*
      - Seminar + field course: *Applied Hydrogeophysics* (University of Bonn)
    * - *Dec 2018*
-     - Workshop at AGU100: `*Best Practices for Modern Open-Source Research Codes* <https://agu.confex.com/agu/fm18/meetingapp.cgi/Session/52075>`_
+     - Workshop at AGU100: `Best Practices for Modern Open-Source Research Codes <https://agu.confex.com/agu/fm18/meetingapp.cgi/Session/52075>`_
 
 .. class:: sidenote
 
