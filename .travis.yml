@@ -1,10 +1,6 @@
 sudo: false
 language: python
 python: 3.6
-env:
-  global:
-  - 'SFTP_USER=[FTP_USER]'
-  - 'SFTP_PASSWORD=[FTP_PASSWORD]'
 
 addons:
   apt:
