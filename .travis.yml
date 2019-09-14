@@ -5,7 +5,6 @@ env:
   global:
   - 'SFTP_USER=[FTP_USER]'
   - 'SFTP_PASSWORD=[FTP_PASSWORD]'
-  - 'SFTP_KEY=[base64-encoded-rsa-key]'
 
 addons:
   apt:
@@ -26,9 +25,5 @@ script:
     - make html-cv
 
 after_success:
-- echo "${SFTP_KEY}" | base64 --decode >/tmp/sftp_rsa
-- cd output
-- curl --ftp-create-dirs
-       -T index.html
-       --key /tmp/sftp_rsa
-       sftp://${SFTP_USER}:${SFTP_PASSWORD}@ftp.fwagner.info
+- cd output && find . -type f -exec curl -u $FTP_USER:$FTP_PASSWORD --ftp-create-dirs -T {} ftp://fwagner.info/fwagner.info/\{\} \;
+
