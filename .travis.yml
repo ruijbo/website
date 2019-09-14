@@ -1,6 +1,11 @@
 sudo: false
 language: python
 python: 3.6
+env:
+  global:
+  - 'SFTP_USER=[FTP_USER]'
+  - 'SFTP_PASSWORD=[FTP_PASSWORD]'
+  - 'SFTP_KEY=[base64-encoded-rsa-key]'
 
 addons:
   apt:
@@ -19,5 +24,11 @@ install:
     - pip install pelican bibtexparser
 script:
     - make html-cv
+
 after_success:
-    - cd output && ncftpput -u $FTP_USER -p $FTP_PASSWORD -R ftp.fwagner.info /fwagner.info .
+- echo "${SFTP_KEY}" | base64 --decode >/tmp/sftp_rsa
+- cd output
+- curl --ftp-create-dirs
+       -T index.html
+       --key /tmp/sftp_rsa
+       sftp://${SFTP_USER}:${SFTP_PASSWORD}@ftp.fwagner.info
