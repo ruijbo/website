@@ -8,10 +8,7 @@ AUTHOR = 'Florian M. Wagner'
 SITENAME = AUTHOR
 SRCURL = 'https://github.com/florian-wagner/website'
 
-if "TRAVIS" in os.environ:
-    SITEURL = 'https://www.fwagner.info'
-else:
-    SITEURL = 'http://localhost:8000'
+SITEURL = 'https://www.fwagner.info'
 
 # Path settings
 DELETE_OUTPUT_DIRECTORY = True
