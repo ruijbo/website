@@ -6,10 +6,10 @@ About
 
     <div class="pure-u-2-3">
 
-I am a geophysical research associate at the `University of Bonn`_, Germany.
-Prior to my postdoctoral research, I worked at the `GFZ German Research Centre
-for Geosciences`_ in Potsdam and obtained a PhD from `ETH Zurich`_ in
-Switzerland.
+Welcome, I am an applied geophysicist with a strong interest in deriving process-based information from geophysical observations.
+I am currently substitute professor for Applied Geophysics at `RWTH Aachen University`_
+and have previously worked at the `University of Bonn`_, `Berkeley Lab`_, `GFZ German Research Centre
+for Geosciences`_ and obtained a PhD from `ETH Zurich`_.
 
 My research interests include:
 
@@ -22,6 +22,8 @@ My research interests include:
 For more information see my complete `curriculum vitae`_ and a list of
 `scientific publications`_.
 
+.. _`RWTH Aachen University`: https://www.gge.eonerc.rwth-aachen.de/
+.. _`Berkeley Lab`: https://eesa.lbl.gov/
 .. _`www.pygimli.org`: https://www.pygimli.org
 .. _`University of Bonn`: https://www.geo.uni-bonn.de/
 .. _`GFZ German Research Centre for Geosciences`: http://www.gfz-potsdam.de/en
