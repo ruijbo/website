@@ -2,20 +2,20 @@ Contact
 -------
 
 .. list-table::
-   :widths: 5 60
+   :widths: 10 100
 
-   * - :icon:`university`
+   * -
      - Florian M. Wagner
+   * - :icon:`university`
+     - Institute for Applied Geophysics and Geothermal Energy
    * -
-     - University of Bonn
+     - E.ON Energy Research Center
    * -
-     - Institute of Geosciences and Meteorology
+     - RWTH Aachen University
    * -
-     - Geophysics Section
+     - Mathieustr. 10
    * -
-     - Meckenheimer Allee 176, Room 2.025
-   * -
-     - 53115 Bonn
+     - D-52074 Aachen
    * -
      - Germany
    * - :icon:`envelope`
