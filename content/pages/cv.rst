@@ -27,7 +27,7 @@ Professional experience
    :widths: 5 20
 
    * - *since Oct. 2019*
-     - Substitute professor for Applied Geophysics at `RWTH Aachen University`_
+     - Substitute professor of Applied Geophysics at `RWTH Aachen University`_
    * - *Sept. 2018 - Dec. 2018*
      - Visiting scholar within `Earth and Environmental Sciences Area at Lawrence Berkeley National Laboratory`_
    * - *Aug. 2016 - Sept. 2019*
