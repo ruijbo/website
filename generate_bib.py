@@ -143,7 +143,7 @@ for year in articles:
         f.write(". ")
 
         if "url" in article and len(article["url"]) > 10:
-            if article["url"].lower().endswith(".pdf"):
+            if article["url"].lower().endswith("pdf"):
                 icon = "file-pdf-o"
             else:
                 icon = "external-link"
