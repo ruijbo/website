@@ -42,6 +42,8 @@ Scholarships & Awards
 .. list-table::
    :widths: 4 20
 
+   * - *Jan. 2021*
+     - `Teaching prize awarded by the Faculty of Georesources and Materials Engineering <https://www.fgeo.rwth-aachen.de/cms/Geowissenschaften-und-Geographie/Die-Fachgruppe/Aktuell/Meldungen/~mfudr/Lehrpreis-der-Fakultaet/?lidx=1>`_
    * - *Sept. 2017*
      - `Water-Monitoring award <https://www.deutsches-stiftungszentrum.de/aktuelles/2017_09_12_wasser-monitoring-preis>`_ by the `Dr. Erich Ritter foundation <https://www.deutsches-stiftungszentrum.de/stiftungen/dr-erich-ritter-stiftung>`_ in cooperation with the `Water Science Alliance e.V. <http://www.watersciencealliance.org>`_ (50.000 €)
    * - *Apr. 2016*
@@ -66,8 +68,8 @@ Teaching experience
 .. list-table::
    :widths: 4 20
 
-   * - *WS19/20*
-     - *Physics of the Earth*, *Geothermics*, *Application of geophysical prospection methods in Earth and Environmental Sciences* (RWTH Aachen University)
+   * - *since WS19/20*
+     - *Physics of the Earth*, *Geothermics*, *Geophysics I: Theory of geophysical prospection methods*, *Geophysics II: Application of geophysical prospection methods in Earth and Environmental Sciences* (RWTH Aachen University)
    * - *Dec 2018*
      - Workshop at AGU100: `Best Practices for Modern Open-Source Research Codes <https://agu.confex.com/agu/fm18/meetingapp.cgi/Session/52075>`_
    * - *SS18, SS19*
