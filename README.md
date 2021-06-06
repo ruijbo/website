@@ -1,7 +1,7 @@
 Source code for personal website www.fwagner.info
 =================================================
 
-[![Build Status](https://travis-ci.org/florian-wagner/website.svg)](https://travis-ci.org/florian-wagner/website)
+[![Build Status](http://jenkins.pygimli.org/buildStatus/icon?job=fwagner.info)](http://jenkins.pygimli.org/job/fwagner.info/)
 
 Built with [Pure Theme](http://purepelican.com/) for
 [Pelican](http://blog.getpelican.com/). Uses icons by
