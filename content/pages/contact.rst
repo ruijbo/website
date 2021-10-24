@@ -6,10 +6,8 @@ Contact
 
    * -
      - Florian M. Wagner
-   * - :icon:`university`
-     - Institute for Applied Geophysics and Geothermal Energy
    * -
-     - E.ON Energy Research Center
+     - Institute for Applied Geophysics and Geothermal Energy
    * -
      - RWTH Aachen University
    * -
@@ -20,3 +18,5 @@ Contact
      - Germany
    * - :icon:`envelope`
      - mail@fwagner.info
+   * - :icon:`university`
+     - `www.gge.eonerc.rwth-aachen.de <https://www.gge.eonerc.rwth-aachen.de/cms/~dngp/E-ON-ERC-GGE/?lidx=1>`_

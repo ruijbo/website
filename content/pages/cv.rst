@@ -43,7 +43,7 @@ Scholarships & Awards
    :widths: 4 20
 
    * - *Aug. 2021*
-     - Best teaching award by the student council Earth sciences and resource management at RWTH Aachen University
+     - `Best teaching award by the student council Earth sciences and resource management at RWTH Aachen University <https://www.gge.eonerc.rwth-aachen.de/cms/E-ON-ERC-GGE/Das-Institut/Aktuelle-Meldungen-Institut/~qoeyz/Lehrpreis-Wagner/?lidx=1>`_
    * - *Jan. 2021*
      - `Teaching prize awarded by the Faculty of Georesources and Materials Engineering <https://www.fgeo.rwth-aachen.de/cms/Geowissenschaften-und-Geographie/Die-Fachgruppe/Aktuell/Meldungen/~mfudr/Lehrpreis-der-Fakultaet/?lidx=1>`_
    * - *Sept. 2017*
