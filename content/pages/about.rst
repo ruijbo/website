@@ -14,7 +14,8 @@ for Geosciences`_ and obtained a PhD from `ETH Zurich`_.
 My research interests include:
 
 * Geophysical monitoring of subsurface fluid migration
-* Permafrost characterization
+* Permafrost characterization and monitoring
+* Geothermal and geological storage reservoirs
 * Tomographic experimental design
 * Numerical modeling and (process-based/joint) inversion
 * Scientific software development (`www.pygimli.org`_)
